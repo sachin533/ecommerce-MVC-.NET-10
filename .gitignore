@@ -1,0 +1,24 @@
+# build outputs
+bin/
+obj/
+dist/
+node_modules/
+
+# test / tooling artifacts
+test-results/
+playwright-report/
+coverage/
+logs/
+
+# local secrets — never commit
+*.user
+secrets.json
+appsettings.*.local.json
+
+# editor / OS
+.vs/
+.vscode/
+.idea/
+*.suo
+Thumbs.db
+.DS_Store

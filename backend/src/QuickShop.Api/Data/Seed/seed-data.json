@@ -1,0 +1,4369 @@
+{
+  "categories": [
+    {
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Thin-and-light notebooks, gaming rigs and creator laptops.",
+      "sortOrder": 1,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp"
+    },
+    {
+      "name": "Mobiles",
+      "slug": "mobiles",
+      "description": "Latest Android and iOS smartphones with India warranty.",
+      "sortOrder": 2,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp"
+    },
+    {
+      "name": "Tablets",
+      "slug": "tablets",
+      "description": "Tablets for work, study and entertainment.",
+      "sortOrder": 3,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp"
+    },
+    {
+      "name": "Headphones & Audio",
+      "slug": "headphones-audio",
+      "description": "Headphones, earbuds and smart speakers.",
+      "sortOrder": 4,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp"
+    },
+    {
+      "name": "Smart Watches",
+      "slug": "smart-watches",
+      "description": "Fitness trackers and smartwatches for every wrist.",
+      "sortOrder": 5,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/GarminForerunner310XT.jpg/1280px-GarminForerunner310XT.jpg"
+    },
+    {
+      "name": "Accessories",
+      "slug": "accessories",
+      "description": "Chargers, cases, mice, keyboards and must-have add-ons.",
+      "sortOrder": 6,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp"
+    },
+    {
+      "name": "Home Appliances",
+      "slug": "home-appliances",
+      "description": "Washing machines, refrigerators, ACs and more.",
+      "sortOrder": 7,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/1.webp"
+    },
+    {
+      "name": "Clothing",
+      "slug": "clothing",
+      "description": "Menswear and womenswear essentials.",
+      "sortOrder": 8,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp"
+    },
+    {
+      "name": "Footwear",
+      "slug": "footwear",
+      "description": "Sneakers, formal shoes and everyday comfort.",
+      "sortOrder": 9,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/1.webp"
+    },
+    {
+      "name": "Bags & Luggage",
+      "slug": "bags-luggage",
+      "description": "Backpacks, handbags and travel gear.",
+      "sortOrder": 10,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/1.webp"
+    },
+    {
+      "name": "Watches",
+      "slug": "watches",
+      "description": "Classic analog watches from trusted makers.",
+      "sortOrder": 11,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/1.webp"
+    },
+    {
+      "name": "Home & Furniture",
+      "slug": "home-furniture",
+      "description": "Furniture and decor to warm up every room.",
+      "sortOrder": 12,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp"
+    },
+    {
+      "name": "Sports & Fitness",
+      "slug": "sports-fitness",
+      "description": "Cricket, football, fitness and outdoor gear.",
+      "sortOrder": 13,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/sports-accessories/american-football/1.webp"
+    },
+    {
+      "name": "Kitchen & Dining",
+      "slug": "kitchen-dining",
+      "description": "Cookware, tools and dining essentials.",
+      "sortOrder": 14,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp"
+    }
+  ],
+  "products": [
+    {
+      "name": "Annibale Colombo Bed",
+      "slug": "annibale-colombo-bed",
+      "sku": "FUR-5370",
+      "brand": "Annibale Colombo",
+      "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+      "price": 161490,
+      "discountPercent": 20,
+      "stock": 19,
+      "rating": 4.2,
+      "ratingCount": 798,
+      "categorySlug": "home-furniture",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 70,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Annibale Colombo Sofa",
+      "slug": "annibale-colombo-sofa",
+      "sku": "FUR-6214",
+      "brand": "Annibale Colombo",
+      "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+      "price": 212490,
+      "discountPercent": 20,
+      "stock": 6,
+      "rating": 3.9,
+      "ratingCount": 270,
+      "categorySlug": "home-furniture",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 62,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Bedside Table African Cherry",
+      "slug": "bedside-table-african-cherry",
+      "sku": "FUR-5754",
+      "brand": "Furniture Co.",
+      "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+      "price": 25490,
+      "discountPercent": 15,
+      "stock": 32,
+      "rating": 4.1,
+      "ratingCount": 441,
+      "categorySlug": "home-furniture",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 53,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Knoll Saarinen Executive Conference Chair",
+      "slug": "knoll-saarinen-executive-conference-chair",
+      "sku": "FUR-6471",
+      "brand": "Knoll",
+      "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
+      "price": 42490,
+      "discountPercent": 20,
+      "stock": 16,
+      "rating": 4.8,
+      "ratingCount": 590,
+      "categorySlug": "home-furniture",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 22,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Wooden Bathroom Sink With Mirror",
+      "slug": "wooden-bathroom-sink-with-mirror",
+      "sku": "FUR-6784",
+      "brand": "Bath Trends",
+      "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+      "price": 67990,
+      "discountPercent": 30,
+      "stock": 55,
+      "rating": 4,
+      "ratingCount": 754,
+      "categorySlug": "home-furniture",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 56,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Decoration Swing",
+      "slug": "decoration-swing",
+      "sku": "FUR-4652",
+      "brand": "Pepperfry",
+      "description": "The Decoration Swing is a charming addition to your home decor. Crafted with intricate details, it adds a touch of elegance and whimsy to any room.",
+      "price": 5090,
+      "discountPercent": 12,
+      "stock": 2,
+      "rating": 4,
+      "ratingCount": 496,
+      "categorySlug": "home-furniture",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 108,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/1.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/2.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Family Tree Photo Frame",
+      "slug": "family-tree-photo-frame",
+      "sku": "FUR-5865",
+      "brand": "Pepperfry",
+      "description": "The Family Tree Photo Frame is a sentimental and stylish way to display your cherished family memories. With multiple photo slots, it tells the story of your loved ones.",
+      "price": 2540,
+      "discountPercent": 25,
+      "stock": 25,
+      "rating": 4.4,
+      "ratingCount": 49,
+      "categorySlug": "home-furniture",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 31,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "House Showpiece Plant",
+      "slug": "house-showpiece-plant",
+      "sku": "FUR-4554",
+      "brand": "Pepperfry",
+      "description": "The House Showpiece Plant is an artificial plant that brings a touch of nature to your home without the need for maintenance. It adds greenery and style to any space.",
+      "price": 3390,
+      "discountPercent": 12,
+      "stock": 0,
+      "rating": 4.3,
+      "ratingCount": 230,
+      "categorySlug": "home-furniture",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 92,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/1.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/2.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Plant Pot",
+      "slug": "plant-pot",
+      "sku": "FUR-7936",
+      "brand": "Pepperfry",
+      "description": "The Plant Pot is a stylish container for your favorite plants. With a sleek design, it complements your indoor or outdoor garden, adding a modern touch to your plant display.",
+      "price": 1260,
+      "discountPercent": 5,
+      "stock": 37,
+      "rating": 3.7,
+      "ratingCount": 696,
+      "categorySlug": "home-furniture",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 58,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/1.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/2.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/3.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Table Lamp",
+      "slug": "table-lamp",
+      "sku": "FUR-7098",
+      "brand": "Pepperfry",
+      "description": "The Table Lamp is a functional and decorative lighting solution for your living space. With a modern design, it provides both ambient and task lighting, enhancing the atmosphere.",
+      "price": 4240,
+      "discountPercent": 20,
+      "stock": 59,
+      "rating": 4.6,
+      "ratingCount": 318,
+      "categorySlug": "home-furniture",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 110,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Bamboo Spatula",
+      "slug": "bamboo-spatula",
+      "sku": "KIT-4106",
+      "brand": "Prestige",
+      "description": "The Bamboo Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes.",
+      "price": 670,
+      "discountPercent": 5,
+      "stock": 13,
+      "rating": 4.4,
+      "ratingCount": 502,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 114,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Black Aluminium Cup",
+      "slug": "black-aluminium-cup",
+      "sku": "KIT-8436",
+      "brand": "Prestige",
+      "description": "The Black Aluminium Cup is a stylish and durable cup suitable for both hot and cold beverages. Its sleek black design adds a modern touch to your drinkware collection.",
+      "price": 500,
+      "discountPercent": 30,
+      "stock": 26,
+      "rating": 4.1,
+      "ratingCount": 880,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 112,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/2.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Black Whisk",
+      "slug": "black-whisk",
+      "sku": "KIT-4219",
+      "brand": "Prestige",
+      "description": "The Black Whisk is a kitchen essential for whisking and beating ingredients. Its ergonomic handle and sleek design make it a practical and stylish tool.",
+      "price": 840,
+      "discountPercent": 15,
+      "stock": 18,
+      "rating": 4.5,
+      "ratingCount": 147,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 109,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Boxed Blender",
+      "slug": "boxed-blender",
+      "sku": "HAP-4510",
+      "brand": "Bosch",
+      "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance.",
+      "price": 3390,
+      "discountPercent": 20,
+      "stock": 44,
+      "rating": 4.5,
+      "ratingCount": 658,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 30,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/2.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/3.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Carbon Steel Wok",
+      "slug": "carbon-steel-wok",
+      "sku": "KIT-8677",
+      "brand": "Prestige",
+      "description": "The Carbon Steel Wok is a versatile cooking pan suitable for stir-frying, sautéing, and deep frying. Its sturdy construction ensures even heat distribution for delicious meals.",
+      "price": 2540,
+      "discountPercent": 15,
+      "stock": 29,
+      "rating": 4,
+      "ratingCount": 323,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 5,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Chopping Board",
+      "slug": "chopping-board",
+      "sku": "KIT-4200",
+      "brand": "Prestige",
+      "description": "The Chopping Board is an essential kitchen accessory for food preparation. Made from durable material, it provides a safe and hygienic surface for cutting and chopping.",
+      "price": 1090,
+      "discountPercent": 12,
+      "stock": 43,
+      "rating": 4.4,
+      "ratingCount": 162,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 84,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Citrus Squeezer Yellow",
+      "slug": "citrus-squeezer-yellow",
+      "sku": "KIT-1284",
+      "brand": "Prestige",
+      "description": "The Citrus Squeezer in Yellow is a handy tool for extracting juice from citrus fruits. Its vibrant color adds a cheerful touch to your kitchen gadgets.",
+      "price": 750,
+      "discountPercent": 5,
+      "stock": 23,
+      "rating": 4.5,
+      "ratingCount": 182,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 74,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Egg Slicer",
+      "slug": "egg-slicer",
+      "sku": "KIT-9603",
+      "brand": "Prestige",
+      "description": "The Egg Slicer is a convenient tool for slicing boiled eggs evenly. It's perfect for salads, sandwiches, and other dishes where sliced eggs are desired.",
+      "price": 580,
+      "discountPercent": 10,
+      "stock": 48,
+      "rating": 4.5,
+      "ratingCount": 157,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 59,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/egg-slicer/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Electric Stove",
+      "slug": "electric-stove",
+      "sku": "HAP-6442",
+      "brand": "Bosch",
+      "description": "The Electric Stove provides a portable and efficient cooking solution. Ideal for small kitchens or as an additional cooking surface for various culinary needs.",
+      "price": 4240,
+      "discountPercent": 5,
+      "stock": 28,
+      "rating": 4,
+      "ratingCount": 512,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 114,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/2.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/3.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Fine Mesh Strainer",
+      "slug": "fine-mesh-strainer",
+      "sku": "KIT-3709",
+      "brand": "Prestige",
+      "description": "The Fine Mesh Strainer is a versatile tool for straining liquids and sifting dry ingredients. Its fine mesh ensures efficient filtering for smooth cooking and baking.",
+      "price": 840,
+      "discountPercent": 15,
+      "stock": 6,
+      "rating": 3.9,
+      "ratingCount": 275,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 77,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Fork",
+      "slug": "fork",
+      "sku": "KIT-8940",
+      "brand": "Prestige",
+      "description": "The Fork is a classic utensil for various dining and serving purposes. Its durable and ergonomic design makes it a reliable choice for everyday use.",
+      "price": 330,
+      "discountPercent": 30,
+      "stock": 37,
+      "rating": 4.1,
+      "ratingCount": 756,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 48,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Glass",
+      "slug": "glass",
+      "sku": "KIT-2846",
+      "brand": "Prestige",
+      "description": "The Glass is a versatile and elegant drinking vessel suitable for a variety of beverages. Its clear design allows you to enjoy the colors and textures of your drinks.",
+      "price": 410,
+      "discountPercent": 20,
+      "stock": 27,
+      "rating": 4.2,
+      "ratingCount": 346,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 78,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Grater Black",
+      "slug": "grater-black",
+      "sku": "KIT-4428",
+      "brand": "Prestige",
+      "description": "The Grater in Black is a handy kitchen tool for grating cheese, vegetables, and more. Its sleek design and sharp blades make food preparation efficient and easy.",
+      "price": 920,
+      "discountPercent": 5,
+      "stock": 3,
+      "rating": 3.7,
+      "ratingCount": 650,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 2,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Hand Blender",
+      "slug": "hand-blender",
+      "sku": "HAP-8611",
+      "brand": "Bosch",
+      "description": "The Hand Blender is a versatile kitchen appliance for blending, pureeing, and mixing. Its compact design and powerful motor make it a convenient tool for various recipes.",
+      "price": 2960,
+      "discountPercent": 0,
+      "stock": 24,
+      "rating": 4.1,
+      "ratingCount": 893,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 65,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Ice Cube Tray",
+      "slug": "ice-cube-tray",
+      "sku": "KIT-3742",
+      "brand": "Prestige",
+      "description": "The Ice Cube Tray is a practical accessory for making ice cubes in various shapes. Perfect for keeping your drinks cool and adding a fun element to your beverages.",
+      "price": 500,
+      "discountPercent": 20,
+      "stock": 9,
+      "rating": 4.3,
+      "ratingCount": 428,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 70,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Kitchen Sieve",
+      "slug": "kitchen-sieve",
+      "sku": "KIT-6636",
+      "brand": "Prestige",
+      "description": "The Kitchen Sieve is a versatile tool for sifting and straining dry and wet ingredients. Its fine mesh design ensures smooth results in your cooking and baking.",
+      "price": 670,
+      "discountPercent": 30,
+      "stock": 33,
+      "rating": 4.8,
+      "ratingCount": 442,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 104,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/kitchen-sieve/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Knife",
+      "slug": "knife",
+      "sku": "KIT-2481",
+      "brand": "Prestige",
+      "description": "The Knife is an essential kitchen tool for chopping, slicing, and dicing. Its sharp blade and ergonomic handle make it a reliable choice for food preparation.",
+      "price": 1260,
+      "discountPercent": 10,
+      "stock": 56,
+      "rating": 4.2,
+      "ratingCount": 875,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 107,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/knife/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Lunch Box",
+      "slug": "lunch-box",
+      "sku": "KIT-1233",
+      "brand": "Prestige",
+      "description": "The Lunch Box is a convenient and portable container for packing and carrying your meals. With compartments for different foods, it's perfect for on-the-go dining.",
+      "price": 1090,
+      "discountPercent": 25,
+      "stock": 49,
+      "rating": 4.7,
+      "ratingCount": 433,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 95,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Microwave Oven",
+      "slug": "microwave-oven",
+      "sku": "HAP-2771",
+      "brand": "Bosch",
+      "description": "The Microwave Oven is a versatile kitchen appliance for quick and efficient cooking, reheating, and defrosting. Its compact size makes it suitable for various kitchen setups.",
+      "price": 7640,
+      "discountPercent": 0,
+      "stock": 43,
+      "rating": 4.6,
+      "ratingCount": 327,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 9,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/2.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/3.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Mug Tree Stand",
+      "slug": "mug-tree-stand",
+      "sku": "KIT-6393",
+      "brand": "Prestige",
+      "description": "The Mug Tree Stand is a stylish and space-saving solution for organizing your mugs. Keep your favorite mugs easily accessible and neatly displayed in your kitchen.",
+      "price": 1350,
+      "discountPercent": 0,
+      "stock": 21,
+      "rating": 4.9,
+      "ratingCount": 175,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 97,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/2.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Pan",
+      "slug": "pan",
+      "sku": "KIT-8467",
+      "brand": "Prestige",
+      "description": "The Pan is a versatile and essential cookware item for frying, sautéing, and cooking various dishes. Its non-stick coating ensures easy food release and cleanup.",
+      "price": 2110,
+      "discountPercent": 15,
+      "stock": 0,
+      "rating": 4.8,
+      "ratingCount": 11,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 13,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Plate",
+      "slug": "plate",
+      "sku": "KIT-6106",
+      "brand": "Prestige",
+      "description": "The Plate is a classic and essential dishware item for serving meals. Its durable and stylish design makes it suitable for everyday use or special occasions.",
+      "price": 330,
+      "discountPercent": 20,
+      "stock": 8,
+      "rating": 4.4,
+      "ratingCount": 102,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 94,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Red Tongs",
+      "slug": "red-tongs",
+      "sku": "KIT-5194",
+      "brand": "Prestige",
+      "description": "The Red Tongs are versatile kitchen tongs suitable for various cooking and serving tasks. Their vibrant color adds a pop of excitement to your kitchen utensils.",
+      "price": 580,
+      "discountPercent": 20,
+      "stock": 34,
+      "rating": 3.9,
+      "ratingCount": 848,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 70,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/red-tongs/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Silver Pot With Glass Cap",
+      "slug": "silver-pot-with-glass-cap",
+      "sku": "KIT-9640",
+      "brand": "Prestige",
+      "description": "The Silver Pot with Glass Cap is a stylish and functional cookware item for boiling, simmering, and preparing delicious meals. Its glass cap allows you to monitor cooking progress.",
+      "price": 3390,
+      "discountPercent": 20,
+      "stock": 35,
+      "rating": 4.7,
+      "ratingCount": 234,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 46,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/silver-pot-with-glass-cap/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Slotted Turner",
+      "slug": "slotted-turner",
+      "sku": "KIT-4249",
+      "brand": "Prestige",
+      "description": "The Slotted Turner is a kitchen utensil designed for flipping and turning food items. Its slotted design allows excess liquid to drain, making it ideal for frying and sautéing.",
+      "price": 750,
+      "discountPercent": 25,
+      "stock": 33,
+      "rating": 3.9,
+      "ratingCount": 747,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 39,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/slotted-turner/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Spice Rack",
+      "slug": "spice-rack",
+      "sku": "KIT-7055",
+      "brand": "Prestige",
+      "description": "The Spice Rack is a convenient organizer for your spices and seasonings. Keep your kitchen essentials within reach and neatly arranged with this stylish spice rack.",
+      "price": 1690,
+      "discountPercent": 0,
+      "stock": 9,
+      "rating": 4.2,
+      "ratingCount": 43,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 25,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/spice-rack/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Spoon",
+      "slug": "spoon",
+      "sku": "KIT-7397",
+      "brand": "Prestige",
+      "description": "The Spoon is a versatile kitchen utensil for stirring, serving, and tasting. Its ergonomic design and durable construction make it an essential tool for every kitchen.",
+      "price": 410,
+      "discountPercent": 10,
+      "stock": 54,
+      "rating": 4.8,
+      "ratingCount": 703,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 115,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Tray",
+      "slug": "tray",
+      "sku": "KIT-7496",
+      "brand": "Prestige",
+      "description": "The Tray is a functional and decorative item for serving snacks, appetizers, or drinks. Its stylish design makes it a versatile accessory for entertaining guests.",
+      "price": 1430,
+      "discountPercent": 12,
+      "stock": 17,
+      "rating": 3.8,
+      "ratingCount": 776,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 108,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/tray/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Wooden Rolling Pin",
+      "slug": "wooden-rolling-pin",
+      "sku": "KIT-7836",
+      "brand": "Prestige",
+      "description": "The Wooden Rolling Pin is a classic kitchen tool for rolling out dough for baking. Its smooth surface and sturdy handles make it easy to achieve uniform thickness.",
+      "price": 1010,
+      "discountPercent": 30,
+      "stock": 58,
+      "rating": 4.9,
+      "ratingCount": 152,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 104,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/wooden-rolling-pin/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Yellow Peeler",
+      "slug": "yellow-peeler",
+      "sku": "KIT-8021",
+      "brand": "Prestige",
+      "description": "The Yellow Peeler is a handy tool for peeling fruits and vegetables with ease. Its bright yellow color adds a cheerful touch to your kitchen gadgets.",
+      "price": 500,
+      "discountPercent": 25,
+      "stock": 2,
+      "rating": 4.9,
+      "ratingCount": 843,
+      "categorySlug": "kitchen-dining",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 95,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/yellow-peeler/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple MacBook Pro 14 Inch Space Grey",
+      "slug": "apple-macbook-pro-14-inch-space-grey",
+      "sku": "LAP-1210",
+      "brand": "Apple",
+      "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+      "price": 169990,
+      "discountPercent": 25,
+      "stock": 40,
+      "rating": 4.8,
+      "ratingCount": 379,
+      "categorySlug": "laptops",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 111,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Asus Zenbook Pro Dual Screen Laptop",
+      "slug": "asus-zenbook-pro-dual-screen-laptop",
+      "sku": "LAP-1032",
+      "brand": "Asus",
+      "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+      "price": 152990,
+      "discountPercent": 15,
+      "stock": 53,
+      "rating": 4.2,
+      "ratingCount": 757,
+      "categorySlug": "laptops",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 29,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Huawei Matebook X Pro",
+      "slug": "huawei-matebook-x-pro",
+      "sku": "LAP-5626",
+      "brand": "Huawei",
+      "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+      "price": 118990,
+      "discountPercent": 12,
+      "stock": 39,
+      "rating": 4.3,
+      "ratingCount": 338,
+      "categorySlug": "laptops",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 20,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Lenovo Yoga 920",
+      "slug": "lenovo-yoga-920",
+      "sku": "LAP-9584",
+      "brand": "Lenovo",
+      "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+      "price": 93490,
+      "discountPercent": 5,
+      "stock": 17,
+      "rating": 4.8,
+      "ratingCount": 646,
+      "categorySlug": "laptops",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 58,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "New DELL XPS 13 9300 Laptop",
+      "slug": "new-dell-xps-13-9300-laptop",
+      "sku": "LAP-2200",
+      "brand": "Dell",
+      "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+      "price": 127490,
+      "discountPercent": 12,
+      "stock": 44,
+      "rating": 4.4,
+      "ratingCount": 548,
+      "categorySlug": "laptops",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 20,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Blue & Black Check Shirt",
+      "slug": "blue-black-check-shirt",
+      "sku": "CLO-1112",
+      "brand": "Fashion Trends",
+      "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
+      "price": 2540,
+      "discountPercent": 0,
+      "stock": 31,
+      "rating": 4.3,
+      "ratingCount": 335,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 57,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/3.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Gigabyte Aorus Men Tshirt",
+      "slug": "gigabyte-aorus-men-tshirt",
+      "sku": "CLO-3723",
+      "brand": "Gigabyte",
+      "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
+      "price": 2110,
+      "discountPercent": 5,
+      "stock": 36,
+      "rating": 4.5,
+      "ratingCount": 200,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 82,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/3.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Man Plaid Shirt",
+      "slug": "man-plaid-shirt",
+      "sku": "CLO-1486",
+      "brand": "Classic Wear",
+      "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+      "price": 2960,
+      "discountPercent": 30,
+      "stock": 23,
+      "rating": 4.3,
+      "ratingCount": 632,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 24,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/3.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Man Short Sleeve Shirt",
+      "slug": "man-short-sleeve-shirt",
+      "sku": "CLO-8566",
+      "brand": "Casual Comfort",
+      "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
+      "price": 1690,
+      "discountPercent": 12,
+      "stock": 14,
+      "rating": 4.9,
+      "ratingCount": 528,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 100,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/3.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Men Check Shirt",
+      "slug": "men-check-shirt",
+      "sku": "CLO-3212",
+      "brand": "Urban Chic",
+      "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
+      "price": 2370,
+      "discountPercent": 5,
+      "stock": 15,
+      "rating": 4.2,
+      "ratingCount": 424,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 66,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/3.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Nike Air Jordan 1 Red And Black",
+      "slug": "nike-air-jordan-1-red-and-black",
+      "sku": "SHO-5259",
+      "brand": "Nike",
+      "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
+      "price": 12740,
+      "discountPercent": 15,
+      "stock": 13,
+      "rating": 4.5,
+      "ratingCount": 477,
+      "categorySlug": "footwear",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 69,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/3.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Nike Baseball Cleats",
+      "slug": "nike-baseball-cleats",
+      "sku": "SHO-6345",
+      "brand": "Nike",
+      "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+      "price": 6790,
+      "discountPercent": 0,
+      "stock": 54,
+      "rating": 4.4,
+      "ratingCount": 103,
+      "categorySlug": "footwear",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 105,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/3.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Puma Future Rider Trainers",
+      "slug": "puma-future-rider-trainers",
+      "sku": "SHO-1318",
+      "brand": "Puma",
+      "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
+      "price": 7640,
+      "discountPercent": 12,
+      "stock": 38,
+      "rating": 4.6,
+      "ratingCount": 672,
+      "categorySlug": "footwear",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 44,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/3.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Sports Sneakers Off White & Red",
+      "slug": "sports-sneakers-off-white-red",
+      "sku": "SHO-4179",
+      "brand": "Off White",
+      "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic touch.",
+      "price": 10190,
+      "discountPercent": 20,
+      "stock": 0,
+      "rating": 4.5,
+      "ratingCount": 662,
+      "categorySlug": "footwear",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 14,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/3.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Sports Sneakers Off White Red",
+      "slug": "sports-sneakers-off-white-red-2",
+      "sku": "SHO-1111",
+      "brand": "Off White",
+      "description": "Another variant of the Sports Sneakers in Off White Red, featuring a unique design. These sneakers offer style and comfort for casual occasions.",
+      "price": 9340,
+      "discountPercent": 30,
+      "stock": 38,
+      "rating": 4.6,
+      "ratingCount": 752,
+      "categorySlug": "footwear",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 24,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/3.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Brown Leather Belt Watch",
+      "slug": "brown-leather-belt-watch",
+      "sku": "WCH-1358",
+      "brand": "Fashion Timepieces",
+      "description": "The Brown Leather Belt Watch is a stylish timepiece with a classic design. Featuring a genuine leather strap and a sleek dial, it adds a touch of sophistication to your look.",
+      "price": 7640,
+      "discountPercent": 0,
+      "stock": 17,
+      "rating": 4,
+      "ratingCount": 461,
+      "categorySlug": "watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 33,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Longines Master Collection",
+      "slug": "longines-master-collection",
+      "sku": "WCH-8887",
+      "brand": "Longines",
+      "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
+      "price": 127490,
+      "discountPercent": 10,
+      "stock": 1,
+      "rating": 3.8,
+      "ratingCount": 127,
+      "categorySlug": "watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 19,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Rolex Cellini Date Black Dial",
+      "slug": "rolex-cellini-date-black-dial",
+      "sku": "WCH-2114",
+      "brand": "Rolex",
+      "description": "The Rolex Cellini Date with Black Dial is a classic and prestigious watch. With a black dial and date complication, it exudes sophistication and is a symbol of Rolex's heritage.",
+      "price": 764990,
+      "discountPercent": 10,
+      "stock": 25,
+      "rating": 4.1,
+      "ratingCount": 119,
+      "categorySlug": "watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 51,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Rolex Cellini Moonphase",
+      "slug": "rolex-cellini-moonphase",
+      "sku": "WCH-7119",
+      "brand": "Rolex",
+      "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+      "price": 1104990,
+      "discountPercent": 5,
+      "stock": 10,
+      "rating": 4.6,
+      "ratingCount": 864,
+      "categorySlug": "watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 26,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Rolex Datejust",
+      "slug": "rolex-datejust",
+      "sku": "WCH-9527",
+      "brand": "Rolex",
+      "description": "The Rolex Datejust is an iconic and versatile timepiece with a date window. Known for its timeless design and reliability, it's a symbol of Rolex's watchmaking excellence.",
+      "price": 934990,
+      "discountPercent": 30,
+      "stock": 12,
+      "rating": 4.2,
+      "ratingCount": 726,
+      "categorySlug": "watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 8,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Rolex Submariner Watch",
+      "slug": "rolex-submariner-watch",
+      "sku": "WCH-4372",
+      "brand": "Rolex",
+      "description": "The Rolex Submariner is a legendary dive watch with a rich history. Known for its durability and water resistance, it's a symbol of adventure and exploration.",
+      "price": 1189990,
+      "discountPercent": 15,
+      "stock": 58,
+      "rating": 4.8,
+      "ratingCount": 127,
+      "categorySlug": "watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 69,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Amazon Echo Plus",
+      "slug": "amazon-echo-plus",
+      "sku": "AUD-3626",
+      "brand": "Amazon",
+      "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
+      "price": 8490,
+      "discountPercent": 25,
+      "stock": 6,
+      "rating": 4.1,
+      "ratingCount": 895,
+      "categorySlug": "headphones-audio",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 87,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/2.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple Airpods",
+      "slug": "apple-airpods",
+      "sku": "AUD-9765",
+      "brand": "Apple",
+      "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+      "price": 11040,
+      "discountPercent": 30,
+      "stock": 26,
+      "rating": 4.9,
+      "ratingCount": 150,
+      "categorySlug": "headphones-audio",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 72,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/2.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple AirPods Max Silver",
+      "slug": "apple-airpods-max-silver",
+      "sku": "AUD-3578",
+      "brand": "Apple",
+      "description": "The Apple AirPods Max in Silver are premium over-ear headphones with high-fidelity audio, adaptive EQ, and active noise cancellation. Experience immersive sound in style.",
+      "price": 46740,
+      "discountPercent": 10,
+      "stock": 55,
+      "rating": 4.5,
+      "ratingCount": 39,
+      "categorySlug": "headphones-audio",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 11,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple Airpower Wireless Charger",
+      "slug": "apple-airpower-wireless-charger",
+      "sku": "ACC-5142",
+      "brand": "Apple",
+      "description": "The Apple AirPower Wireless Charger provides a convenient way to charge your compatible Apple devices wirelessly. Simply place your devices on the charging mat for effortless charging.",
+      "price": 6790,
+      "discountPercent": 25,
+      "stock": 23,
+      "rating": 4.6,
+      "ratingCount": 87,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 39,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple HomePod Mini Cosmic Grey",
+      "slug": "apple-homepod-mini-cosmic-grey",
+      "sku": "AUD-1933",
+      "brand": "Apple",
+      "description": "The Apple HomePod Mini in Cosmic Grey is a compact smart speaker that delivers impressive audio and integrates seamlessly with the Apple ecosystem for a smart home experience.",
+      "price": 8490,
+      "discountPercent": 30,
+      "stock": 56,
+      "rating": 4.6,
+      "ratingCount": 820,
+      "categorySlug": "headphones-audio",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 72,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple iPhone Charger",
+      "slug": "apple-iphone-charger",
+      "sku": "ACC-9822",
+      "brand": "Apple",
+      "description": "The Apple iPhone Charger is a high-quality charger designed for fast and efficient charging of your iPhone. Ensure your device stays powered up and ready to go.",
+      "price": 1690,
+      "discountPercent": 25,
+      "stock": 30,
+      "rating": 3.7,
+      "ratingCount": 749,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 31,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/2.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple MagSafe Battery Pack",
+      "slug": "apple-magsafe-battery-pack",
+      "sku": "ACC-2109",
+      "brand": "Apple",
+      "description": "The Apple MagSafe Battery Pack is a portable and convenient way to add extra battery life to your MagSafe-compatible iPhone. Attach it magnetically for a secure connection.",
+      "price": 8490,
+      "discountPercent": 5,
+      "stock": 13,
+      "rating": 3.8,
+      "ratingCount": 612,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 114,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/2.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple Watch Series 4 Gold",
+      "slug": "apple-watch-series-4-gold",
+      "sku": "ACC-8707",
+      "brand": "Apple",
+      "description": "The Apple Watch Series 4 in Gold is a stylish and advanced smartwatch with features like heart rate monitoring, fitness tracking, and a beautiful Retina display.",
+      "price": 29740,
+      "discountPercent": 30,
+      "stock": 17,
+      "rating": 4.9,
+      "ratingCount": 536,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 88,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/2.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Beats Flex Wireless Earphones",
+      "slug": "beats-flex-wireless-earphones",
+      "sku": "AUD-3337",
+      "brand": "Beats",
+      "description": "The Beats Flex Wireless Earphones offer a comfortable and versatile audio experience. With magnetic earbuds and up to 12 hours of battery life, they are ideal for everyday use.",
+      "price": 4240,
+      "discountPercent": 25,
+      "stock": 7,
+      "rating": 3.9,
+      "ratingCount": 821,
+      "categorySlug": "headphones-audio",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 63,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "iPhone 12 Silicone Case with MagSafe Plum",
+      "slug": "iphone-12-silicone-case-with-magsafe-plum",
+      "sku": "ACC-5643",
+      "brand": "Apple",
+      "description": "The iPhone 12 Silicone Case with MagSafe in Plum is a stylish and protective case designed for the iPhone 12. It features MagSafe technology for easy attachment of accessories.",
+      "price": 2540,
+      "discountPercent": 30,
+      "stock": 19,
+      "rating": 4.3,
+      "ratingCount": 308,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 40,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/2.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/3.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Selfie Lamp with iPhone",
+      "slug": "selfie-lamp-with-iphone",
+      "sku": "ACC-6862",
+      "brand": "GadgetMaster",
+      "description": "The Selfie Lamp with iPhone is a portable and adjustable LED light designed to enhance your selfies and video calls. Attach it to your iPhone for well-lit photos.",
+      "price": 1260,
+      "discountPercent": 0,
+      "stock": 9,
+      "rating": 4.6,
+      "ratingCount": 193,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 105,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "iPhone 5s",
+      "slug": "iphone-5s",
+      "sku": "PHN-2076",
+      "brand": "Apple",
+      "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+      "price": 16990,
+      "discountPercent": 15,
+      "stock": 55,
+      "rating": 4.5,
+      "ratingCount": 479,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 101,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "iPhone 6",
+      "slug": "iphone-6",
+      "sku": "PHN-4870",
+      "brand": "Apple",
+      "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+      "price": 25490,
+      "discountPercent": 10,
+      "stock": 1,
+      "rating": 4.9,
+      "ratingCount": 685,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 67,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "iPhone 13 Pro",
+      "slug": "iphone-13-pro",
+      "sku": "PHN-3089",
+      "brand": "Apple",
+      "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
+      "price": 93490,
+      "discountPercent": 12,
+      "stock": 9,
+      "rating": 3.8,
+      "ratingCount": 658,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 60,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "iPhone X",
+      "slug": "iphone-x",
+      "sku": "PHN-9568",
+      "brand": "Apple",
+      "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
+      "price": 76490,
+      "discountPercent": 0,
+      "stock": 37,
+      "rating": 4.4,
+      "ratingCount": 461,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 33,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Oppo A57",
+      "slug": "oppo-a57",
+      "sku": "PHN-8782",
+      "brand": "Oppo",
+      "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+      "price": 21240,
+      "discountPercent": 0,
+      "stock": 0,
+      "rating": 3.7,
+      "ratingCount": 399,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 41,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Oppo F19 Pro Plus",
+      "slug": "oppo-f19-pro-plus",
+      "sku": "PHN-6126",
+      "brand": "Oppo",
+      "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+      "price": 33990,
+      "discountPercent": 0,
+      "stock": 21,
+      "rating": 3.7,
+      "ratingCount": 775,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 17,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Oppo K1",
+      "slug": "oppo-k1",
+      "sku": "PHN-9499",
+      "brand": "Oppo",
+      "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+      "price": 25490,
+      "discountPercent": 20,
+      "stock": 47,
+      "rating": 4.1,
+      "ratingCount": 676,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 118,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/3.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Realme C35",
+      "slug": "realme-c35",
+      "sku": "PHN-9400",
+      "brand": "Realme",
+      "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+      "price": 12740,
+      "discountPercent": 10,
+      "stock": 18,
+      "rating": 4.4,
+      "ratingCount": 447,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 19,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Realme X",
+      "slug": "realme-x",
+      "sku": "PHN-6069",
+      "brand": "Realme",
+      "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+      "price": 25490,
+      "discountPercent": 30,
+      "stock": 56,
+      "rating": 4.7,
+      "ratingCount": 50,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 32,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-x/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-x/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Realme XT",
+      "slug": "realme-xt",
+      "sku": "PHN-5683",
+      "brand": "Realme",
+      "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+      "price": 29740,
+      "discountPercent": 5,
+      "stock": 6,
+      "rating": 4.5,
+      "ratingCount": 130,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 2,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Samsung Galaxy S7",
+      "slug": "samsung-galaxy-s7",
+      "sku": "PHN-1041",
+      "brand": "Samsung",
+      "description": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
+      "price": 25490,
+      "discountPercent": 20,
+      "stock": 57,
+      "rating": 4.4,
+      "ratingCount": 236,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 118,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Samsung Galaxy S8",
+      "slug": "samsung-galaxy-s8",
+      "sku": "PHN-4992",
+      "brand": "Samsung",
+      "description": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
+      "price": 42490,
+      "discountPercent": 0,
+      "stock": 42,
+      "rating": 4.2,
+      "ratingCount": 361,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 73,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Samsung Galaxy S10",
+      "slug": "samsung-galaxy-s10",
+      "sku": "PHN-9797",
+      "brand": "Samsung",
+      "description": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
+      "price": 59490,
+      "discountPercent": 5,
+      "stock": 11,
+      "rating": 4.6,
+      "ratingCount": 520,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 2,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Vivo S1",
+      "slug": "vivo-s1",
+      "sku": "PHN-4757",
+      "brand": "Vivo",
+      "description": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
+      "price": 21240,
+      "discountPercent": 5,
+      "stock": 23,
+      "rating": 4.5,
+      "ratingCount": 822,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 114,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Vivo V9",
+      "slug": "vivo-v9",
+      "sku": "PHN-4618",
+      "brand": "Vivo",
+      "description": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
+      "price": 25490,
+      "discountPercent": 0,
+      "stock": 22,
+      "rating": 3.8,
+      "ratingCount": 171,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 73,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Vivo X21",
+      "slug": "vivo-x21",
+      "sku": "PHN-6892",
+      "brand": "Vivo",
+      "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+      "price": 42490,
+      "discountPercent": 10,
+      "stock": 55,
+      "rating": 4.1,
+      "ratingCount": 149,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 91,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "American Football",
+      "slug": "american-football",
+      "sku": "SPT-6290",
+      "brand": "SG",
+      "description": "The American Football is a classic ball used in American football games. It is designed for throwing and catching, making it an essential piece of equipment for the sport.",
+      "price": 1690,
+      "discountPercent": 0,
+      "stock": 29,
+      "rating": 3.7,
+      "ratingCount": 253,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 105,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/american-football/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Baseball Ball",
+      "slug": "baseball-ball",
+      "sku": "SPT-3884",
+      "brand": "SG",
+      "description": "The Baseball Ball is a standard baseball used in baseball games. It features a durable leather cover and is designed for pitching, hitting, and fielding in the game of baseball.",
+      "price": 750,
+      "discountPercent": 10,
+      "stock": 39,
+      "rating": 4.6,
+      "ratingCount": 373,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 35,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-ball/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Baseball Glove",
+      "slug": "baseball-glove",
+      "sku": "SPT-6614",
+      "brand": "SG",
+      "description": "The Baseball Glove is a protective glove worn by baseball players. It is designed to catch and field the baseball, providing players with comfort and control during the game.",
+      "price": 2110,
+      "discountPercent": 0,
+      "stock": 2,
+      "rating": 4.3,
+      "ratingCount": 87,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 49,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/1.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/2.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Basketball",
+      "slug": "basketball",
+      "sku": "SPT-3368",
+      "brand": "SG",
+      "description": "The Basketball is a standard ball used in basketball games. It is designed for dribbling, shooting, and passing in the game of basketball, suitable for both indoor and outdoor play.",
+      "price": 1260,
+      "discountPercent": 25,
+      "stock": 5,
+      "rating": 4.6,
+      "ratingCount": 159,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 111,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/basketball/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Basketball Rim",
+      "slug": "basketball-rim",
+      "sku": "SPT-2644",
+      "brand": "SG",
+      "description": "The Basketball Rim is a sturdy hoop and net assembly mounted on a basketball backboard. It provides a target for shooting and scoring in the game of basketball.",
+      "price": 3390,
+      "discountPercent": 25,
+      "stock": 54,
+      "rating": 4.2,
+      "ratingCount": 553,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 95,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/basketball-rim/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Cricket Ball",
+      "slug": "cricket-ball",
+      "sku": "SPT-3263",
+      "brand": "SG",
+      "description": "The Cricket Ball is a hard leather ball used in the sport of cricket. It is bowled and batted in the game, and its hardness and seam contribute to the dynamics of cricket play.",
+      "price": 1090,
+      "discountPercent": 20,
+      "stock": 57,
+      "rating": 4.8,
+      "ratingCount": 436,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 38,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-ball/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Cricket Bat",
+      "slug": "cricket-bat",
+      "sku": "SPT-6245",
+      "brand": "SG",
+      "description": "The Cricket Bat is an essential piece of cricket equipment used by batsmen to hit the cricket ball. It is made of wood and comes in various sizes and designs.",
+      "price": 2540,
+      "discountPercent": 20,
+      "stock": 57,
+      "rating": 4.4,
+      "ratingCount": 236,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 78,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-bat/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Cricket Helmet",
+      "slug": "cricket-helmet",
+      "sku": "SPT-1265",
+      "brand": "SG",
+      "description": "The Cricket Helmet is a protective headgear worn by cricket players, especially batsmen and wicketkeepers. It provides protection against fast bowling and bouncers.",
+      "price": 3810,
+      "discountPercent": 12,
+      "stock": 13,
+      "rating": 4,
+      "ratingCount": 182,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 4,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/1.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/2.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/3.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Cricket Wicket",
+      "slug": "cricket-wicket",
+      "sku": "SPT-1557",
+      "brand": "SG",
+      "description": "The Cricket Wicket is a set of three stumps and two bails, forming a wicket used in the sport of cricket. Batsmen aim to protect the wicket while scoring runs.",
+      "price": 2540,
+      "discountPercent": 20,
+      "stock": 55,
+      "rating": 3.8,
+      "ratingCount": 894,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 86,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-wicket/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Feather Shuttlecock",
+      "slug": "feather-shuttlecock",
+      "sku": "SPT-6953",
+      "brand": "SG",
+      "description": "The Feather Shuttlecock is used in the sport of badminton. It features natural feathers and is designed for high-speed play, providing stability and accuracy during matches.",
+      "price": 500,
+      "discountPercent": 12,
+      "stock": 41,
+      "rating": 4.2,
+      "ratingCount": 870,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 12,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/feather-shuttlecock/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Football",
+      "slug": "football",
+      "sku": "SPT-6430",
+      "brand": "SG",
+      "description": "The Football, also known as a soccer ball, is the standard ball used in the sport of football (soccer). It is designed for kicking and passing in the game.",
+      "price": 1520,
+      "discountPercent": 0,
+      "stock": 29,
+      "rating": 3.7,
+      "ratingCount": 373,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 105,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/football/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Golf Ball",
+      "slug": "golf-ball",
+      "sku": "SPT-2080",
+      "brand": "SG",
+      "description": "The Golf Ball is a small ball used in the sport of golf. It features dimples on its surface, providing aerodynamic lift and distance when struck by a golf club.",
+      "price": 840,
+      "discountPercent": 25,
+      "stock": 0,
+      "rating": 4.4,
+      "ratingCount": 349,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 111,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/golf-ball/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Iron Golf",
+      "slug": "iron-golf",
+      "sku": "SPT-7289",
+      "brand": "SG",
+      "description": "The Iron Golf is a type of golf club designed for various golf shots. It features a solid metal head and is used for approach shots, chipping, and other golfing techniques.",
+      "price": 4240,
+      "discountPercent": 12,
+      "stock": 22,
+      "rating": 4.9,
+      "ratingCount": 236,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 68,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/iron-golf/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Metal Baseball Bat",
+      "slug": "metal-baseball-bat",
+      "sku": "SPT-9333",
+      "brand": "SG",
+      "description": "The Metal Baseball Bat is a durable and lightweight baseball bat made from metal alloys. It is commonly used in baseball games for hitting and batting practice.",
+      "price": 2540,
+      "discountPercent": 20,
+      "stock": 55,
+      "rating": 3.8,
+      "ratingCount": 164,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 46,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/metal-baseball-bat/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Tennis Ball",
+      "slug": "tennis-ball",
+      "sku": "SPT-2721",
+      "brand": "SG",
+      "description": "The Tennis Ball is a standard ball used in the sport of tennis. It is designed for bouncing and hitting with tennis rackets during matches or practice sessions.",
+      "price": 580,
+      "discountPercent": 30,
+      "stock": 22,
+      "rating": 4.5,
+      "ratingCount": 766,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 88,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-ball/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Tennis Racket",
+      "slug": "tennis-racket",
+      "sku": "SPT-4834",
+      "brand": "SG",
+      "description": "The Tennis Racket is an essential piece of equipment used in the sport of tennis. It features a frame with strings and a grip, allowing players to hit the tennis ball.",
+      "price": 4240,
+      "discountPercent": 15,
+      "stock": 30,
+      "rating": 4.9,
+      "ratingCount": 359,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 21,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-racket/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Volleyball",
+      "slug": "volleyball",
+      "sku": "SPT-6859",
+      "brand": "SG",
+      "description": "The Volleyball is a standard ball used in the sport of volleyball. It is designed for passing, setting, and spiking over the net during volleyball matches.",
+      "price": 1010,
+      "discountPercent": 30,
+      "stock": 25,
+      "rating": 4.3,
+      "ratingCount": 494,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 16,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/volleyball/1.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "iPad Mini 2021 Starlight",
+      "slug": "ipad-mini-2021-starlight",
+      "sku": "TAB-9521",
+      "brand": "Apple",
+      "description": "The iPad Mini 2021 in Starlight is a compact and powerful tablet from Apple. Featuring a stunning Retina display, powerful A-series chip, and a sleek design, it offers a premium tablet experience.",
+      "price": 42490,
+      "discountPercent": 20,
+      "stock": 6,
+      "rating": 3.9,
+      "ratingCount": 200,
+      "categorySlug": "tablets",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 22,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/2.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/3.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Samsung Galaxy Tab S8 Plus Grey",
+      "slug": "samsung-galaxy-tab-s8-plus-grey",
+      "sku": "TAB-6086",
+      "brand": "Samsung",
+      "description": "The Samsung Galaxy Tab S8 Plus in Grey is a high-performance Android tablet by Samsung. With a large AMOLED display, powerful processor, and S Pen support, it's ideal for productivity and entertainment.",
+      "price": 50990,
+      "discountPercent": 10,
+      "stock": 46,
+      "rating": 4,
+      "ratingCount": 25,
+      "categorySlug": "tablets",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 27,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/2.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/3.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Samsung Galaxy Tab White",
+      "slug": "samsung-galaxy-tab-white",
+      "sku": "TAB-6929",
+      "brand": "Samsung",
+      "description": "The Samsung Galaxy Tab in White is a sleek and versatile Android tablet. With a vibrant display, long-lasting battery, and a range of features, it offers a great user experience for various tasks.",
+      "price": 29740,
+      "discountPercent": 20,
+      "stock": 2,
+      "rating": 3.7,
+      "ratingCount": 430,
+      "categorySlug": "tablets",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 22,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/2.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/3.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Blue Frock",
+      "slug": "blue-frock",
+      "sku": "CLO-8700",
+      "brand": "Roadster",
+      "description": "The Blue Frock is a charming and stylish dress for various occasions. With a vibrant blue color and a comfortable design, it adds a touch of elegance to your wardrobe.",
+      "price": 2540,
+      "discountPercent": 10,
+      "stock": 13,
+      "rating": 4.3,
+      "ratingCount": 217,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 99,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tops/blue-frock/1.webp",
+        "https://cdn.dummyjson.com/product-images/tops/blue-frock/2.webp",
+        "https://cdn.dummyjson.com/product-images/tops/blue-frock/3.webp",
+        "https://cdn.dummyjson.com/product-images/tops/blue-frock/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Girl Summer Dress",
+      "slug": "girl-summer-dress",
+      "sku": "CLO-9647",
+      "brand": "Roadster",
+      "description": "The Girl Summer Dress is a cute and breezy dress designed for warm weather. With playful patterns and lightweight fabric, it's perfect for keeping cool and stylish during the summer.",
+      "price": 1690,
+      "discountPercent": 12,
+      "stock": 49,
+      "rating": 4.5,
+      "ratingCount": 718,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 60,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/1.webp",
+        "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/2.webp",
+        "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/3.webp",
+        "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Gray Dress",
+      "slug": "gray-dress",
+      "sku": "CLO-3175",
+      "brand": "Roadster",
+      "description": "The Gray Dress is a versatile and chic option for various occasions. With a neutral gray color, it can be dressed up or down, making it a wardrobe staple for any fashion-forward individual.",
+      "price": 2960,
+      "discountPercent": 5,
+      "stock": 21,
+      "rating": 3.7,
+      "ratingCount": 70,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 42,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tops/gray-dress/1.webp",
+        "https://cdn.dummyjson.com/product-images/tops/gray-dress/2.webp",
+        "https://cdn.dummyjson.com/product-images/tops/gray-dress/3.webp",
+        "https://cdn.dummyjson.com/product-images/tops/gray-dress/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Short Frock",
+      "slug": "short-frock",
+      "sku": "CLO-9516",
+      "brand": "Roadster",
+      "description": "The Short Frock is a playful and trendy dress with a shorter length. Ideal for casual outings or special occasions, it combines style and comfort for a fashionable look.",
+      "price": 2110,
+      "discountPercent": 25,
+      "stock": 50,
+      "rating": 3.8,
+      "ratingCount": 719,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 31,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tops/short-frock/1.webp",
+        "https://cdn.dummyjson.com/product-images/tops/short-frock/2.webp",
+        "https://cdn.dummyjson.com/product-images/tops/short-frock/3.webp",
+        "https://cdn.dummyjson.com/product-images/tops/short-frock/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Tartan Dress",
+      "slug": "tartan-dress",
+      "sku": "CLO-2502",
+      "brand": "Roadster",
+      "description": "The Tartan Dress features a classic tartan pattern, bringing a timeless and sophisticated touch to your wardrobe. Perfect for fall and winter, it adds a hint of traditional charm.",
+      "price": 3390,
+      "discountPercent": 0,
+      "stock": 20,
+      "rating": 4.9,
+      "ratingCount": 449,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 1,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tops/tartan-dress/1.webp",
+        "https://cdn.dummyjson.com/product-images/tops/tartan-dress/2.webp",
+        "https://cdn.dummyjson.com/product-images/tops/tartan-dress/3.webp",
+        "https://cdn.dummyjson.com/product-images/tops/tartan-dress/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Blue Women's Handbag",
+      "slug": "blue-womens-handbag",
+      "sku": "BAG-7403",
+      "brand": "Fashionista",
+      "description": "The Blue Women's Handbag is a stylish and spacious accessory for everyday use. With a vibrant blue color and multiple compartments, it combines fashion and functionality.",
+      "price": 4240,
+      "discountPercent": 0,
+      "stock": 33,
+      "rating": 4.7,
+      "ratingCount": 897,
+      "categorySlug": "bags-luggage",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 89,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Heshe Women's Leather Bag",
+      "slug": "heshe-womens-leather-bag",
+      "sku": "BAG-2714",
+      "brand": "Heshe",
+      "description": "The Heshe Women's Leather Bag is a luxurious and high-quality leather bag for the sophisticated woman. With a timeless design and durable craftsmanship, it's a versatile accessory.",
+      "price": 11040,
+      "discountPercent": 5,
+      "stock": 15,
+      "rating": 4.2,
+      "ratingCount": 684,
+      "categorySlug": "bags-luggage",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 66,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Prada Women Bag",
+      "slug": "prada-women-bag",
+      "sku": "BAG-9483",
+      "brand": "Prada",
+      "description": "The Prada Women Bag is an iconic designer bag that exudes elegance and luxury. Crafted with precision and featuring the Prada logo, it's a statement piece for fashion enthusiasts.",
+      "price": 50990,
+      "discountPercent": 30,
+      "stock": 27,
+      "rating": 4.9,
+      "ratingCount": 786,
+      "categorySlug": "bags-luggage",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 88,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "White Faux Leather Backpack",
+      "slug": "white-faux-leather-backpack",
+      "sku": "BAG-5060",
+      "brand": "Urban Chic",
+      "description": "The White Faux Leather Backpack is a trendy and practical backpack for the modern woman. With a sleek white design and ample storage space, it's perfect for both casual and on-the-go styles.",
+      "price": 3390,
+      "discountPercent": 30,
+      "stock": 47,
+      "rating": 4.2,
+      "ratingCount": 706,
+      "categorySlug": "bags-luggage",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 8,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Women Handbag Black",
+      "slug": "women-handbag-black",
+      "sku": "BAG-6431",
+      "brand": "Elegance Collection",
+      "description": "The Women Handbag in Black is a classic and versatile accessory that complements various outfits. With a timeless black color and functional design, it's a must-have in every woman's wardrobe.",
+      "price": 5090,
+      "discountPercent": 5,
+      "stock": 26,
+      "rating": 4,
+      "ratingCount": 600,
+      "categorySlug": "bags-luggage",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 42,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Black Women's Gown",
+      "slug": "black-womens-gown",
+      "sku": "CLO-3271",
+      "brand": "Roadster",
+      "description": "The Black Women's Gown is an elegant and timeless evening gown. With a sleek black design, it's perfect for formal events and special occasions, exuding sophistication and style.",
+      "price": 11040,
+      "discountPercent": 12,
+      "stock": 56,
+      "rating": 4.6,
+      "ratingCount": 650,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 92,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/3.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Corset Leather With Skirt",
+      "slug": "corset-leather-with-skirt",
+      "sku": "CLO-5991",
+      "brand": "Roadster",
+      "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
+      "price": 7640,
+      "discountPercent": 20,
+      "stock": 54,
+      "rating": 4.4,
+      "ratingCount": 768,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 30,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/3.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Corset With Black Skirt",
+      "slug": "corset-with-black-skirt",
+      "sku": "CLO-3845",
+      "brand": "Roadster",
+      "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
+      "price": 6790,
+      "discountPercent": 30,
+      "stock": 47,
+      "rating": 4.7,
+      "ratingCount": 896,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 48,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/3.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Dress Pea",
+      "slug": "dress-pea",
+      "sku": "CLO-7580",
+      "brand": "Roadster",
+      "description": "The Dress Pea is a stylish and comfortable dress with a pea pattern. Perfect for casual outings, it adds a playful and fun element to your wardrobe, making it a great choice for day-to-day wear.",
+      "price": 4240,
+      "discountPercent": 10,
+      "stock": 33,
+      "rating": 4.8,
+      "ratingCount": 107,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 59,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/3.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Marni Red & Black Suit",
+      "slug": "marni-red-black-suit",
+      "sku": "CLO-8503",
+      "brand": "Roadster",
+      "description": "The Marni Red & Black Suit is a sophisticated and fashion-forward suit ensemble. With a combination of red and black tones, it showcases a modern design for a bold and confident look.",
+      "price": 15290,
+      "discountPercent": 30,
+      "stock": 0,
+      "rating": 3.7,
+      "ratingCount": 146,
+      "categorySlug": "clothing",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 48,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/3.webp",
+        "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Black & Brown Slipper",
+      "slug": "black-brown-slipper",
+      "sku": "SHO-1581",
+      "brand": "Comfort Trends",
+      "description": "The Black & Brown Slipper is a comfortable and stylish choice for casual wear. Featuring a blend of black and brown colors, it adds a touch of sophistication to your relaxation.",
+      "price": 1690,
+      "discountPercent": 20,
+      "stock": 21,
+      "rating": 4.4,
+      "ratingCount": 880,
+      "categorySlug": "footwear",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 102,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/3.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Calvin Klein Heel Shoes",
+      "slug": "calvin-klein-heel-shoes",
+      "sku": "SHO-6823",
+      "brand": "Calvin Klein",
+      "description": "Calvin Klein Heel Shoes are elegant and sophisticated, designed for formal occasions. With a classic design and high-quality materials, they complement your stylish ensemble.",
+      "price": 6790,
+      "discountPercent": 20,
+      "stock": 1,
+      "rating": 3.9,
+      "ratingCount": 570,
+      "categorySlug": "footwear",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 22,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/3.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Golden Shoes Woman",
+      "slug": "golden-shoes-woman",
+      "sku": "SHO-6644",
+      "brand": "Fashion Diva",
+      "description": "The Golden Shoes for Women are a glamorous choice for special occasions. Featuring a golden hue and stylish design, they add a touch of luxury to your outfit.",
+      "price": 4240,
+      "discountPercent": 25,
+      "stock": 37,
+      "rating": 4.7,
+      "ratingCount": 441,
+      "categorySlug": "footwear",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 103,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/3.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Pampi Shoes",
+      "slug": "pampi-shoes",
+      "sku": "SHO-9337",
+      "brand": "Pampi",
+      "description": "Pampi Shoes offer a blend of comfort and style for everyday use. With a versatile design, they are suitable for various casual occasions, providing a trendy and relaxed look.",
+      "price": 2540,
+      "discountPercent": 10,
+      "stock": 44,
+      "rating": 4.7,
+      "ratingCount": 243,
+      "categorySlug": "footwear",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 115,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/3.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Red Shoes",
+      "slug": "red-shoes",
+      "sku": "SHO-5900",
+      "brand": "Fashion Express",
+      "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
+      "price": 2960,
+      "discountPercent": 15,
+      "stock": 8,
+      "rating": 4.8,
+      "ratingCount": 677,
+      "categorySlug": "footwear",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 109,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/3.webp",
+        "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/4.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "IWC Ingenieur Automatic Steel",
+      "slug": "iwc-ingenieur-automatic-steel",
+      "sku": "WCH-4985",
+      "brand": "IWC",
+      "description": "The IWC Ingenieur Automatic Steel watch is a durable and sophisticated timepiece. With a stainless steel case and automatic movement, it combines precision and style for watch enthusiasts.",
+      "price": 424990,
+      "discountPercent": 15,
+      "stock": 30,
+      "rating": 3.9,
+      "ratingCount": 509,
+      "categorySlug": "watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 61,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Rolex Datejust Women",
+      "slug": "rolex-datejust-women",
+      "sku": "WCH-7583",
+      "brand": "Rolex",
+      "description": "The Rolex Datejust Women's watch is an iconic timepiece designed for women. With a timeless design and a date complication, it offers both elegance and functionality.",
+      "price": 934990,
+      "discountPercent": 30,
+      "stock": 40,
+      "rating": 4.9,
+      "ratingCount": 274,
+      "categorySlug": "watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 16,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Watch Gold for Women",
+      "slug": "watch-gold-for-women",
+      "sku": "WCH-5573",
+      "brand": "Fashion Gold",
+      "description": "The Gold Women's Watch is a stunning accessory that combines luxury and style. Featuring a gold-plated case and a chic design, it adds a touch of glamour to any outfit.",
+      "price": 67990,
+      "discountPercent": 30,
+      "stock": 25,
+      "rating": 4.8,
+      "ratingCount": 154,
+      "categorySlug": "watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 96,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Women's Wrist Watch",
+      "slug": "womens-wrist-watch",
+      "sku": "WCH-7773",
+      "brand": "Fashion Co.",
+      "description": "The Women's Wrist Watch is a versatile and fashionable timepiece for everyday wear. With a comfortable strap and a simple yet elegant design, it complements various styles.",
+      "price": 11040,
+      "discountPercent": 30,
+      "stock": 20,
+      "rating": 4.5,
+      "ratingCount": 644,
+      "categorySlug": "watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 16,
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/3.webp"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Lenovo ThinkPad X1 Carbon Gen 11",
+      "slug": "lenovo-thinkpad-x1-carbon-gen-11",
+      "sku": "LAP-6814",
+      "brand": "Lenovo",
+      "description": "Business ultrabook with a 14-inch 2.8K display, Intel Core i7, 16GB RAM and 1TB SSD. MIL-spec durability for professionals on the move.",
+      "price": 148990,
+      "discountPercent": 10,
+      "stock": 44,
+      "rating": 3.9,
+      "ratingCount": 333,
+      "categorySlug": "laptops",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 55,
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/59/Lenovo_ThinkPad_X1_Ultrabook_%28Nov_16%2C_2012%29.png"
+      ],
+      "variants": []
+    },
+    {
+      "name": "HP Pavilion 15 Laptop",
+      "slug": "hp-pavilion-15-laptop",
+      "sku": "LAP-5049",
+      "brand": "HP",
+      "description": "15.6-inch FHD IPS display powered by Intel Core i5, 16GB RAM and 512GB SSD — a reliable everyday workhorse.",
+      "price": 62990,
+      "discountPercent": 12,
+      "stock": 24,
+      "rating": 4.4,
+      "ratingCount": 678,
+      "categorySlug": "laptops",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 90,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/HP_Pavilion_zv6000_series.jpg/1280px-HP_Pavilion_zv6000_series.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple MacBook Air M2",
+      "slug": "apple-macbook-air-m2",
+      "sku": "LAP-1984",
+      "brand": "Apple",
+      "description": "13.6-inch Liquid Retina display, Apple M2 chip, 8GB unified memory and 256GB SSD in a fanless aluminium design.",
+      "price": 99900,
+      "discountPercent": 5,
+      "stock": 54,
+      "rating": 4.2,
+      "ratingCount": 293,
+      "categorySlug": "laptops",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 25,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/MacBook_Air_black.jpg/1280px-MacBook_Air_black.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Acer Aspire 5 Slim",
+      "slug": "acer-aspire-5-slim",
+      "sku": "LAP-2095",
+      "brand": "Acer",
+      "description": "15.6-inch FHD laptop with Ryzen 5, 8GB RAM and 512GB NVMe SSD — sharp value for students and home use.",
+      "price": 45990,
+      "discountPercent": 15,
+      "stock": 15,
+      "rating": 3.7,
+      "ratingCount": 134,
+      "categorySlug": "laptops",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 16,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Acer_aspire_4930G.jpg/1280px-Acer_aspire_4930G.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Dell Inspiron 15 Laptop",
+      "slug": "dell-inspiron-15-laptop",
+      "sku": "LAP-8531",
+      "brand": "Dell",
+      "description": "15.6-inch FHD ComfortView display with Intel Core i5, 16GB RAM and 512GB SSD. Built for study, work and streaming.",
+      "price": 54990,
+      "discountPercent": 15,
+      "stock": 31,
+      "rating": 4.3,
+      "ratingCount": 450,
+      "categorySlug": "laptops",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 92,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Dell_Inspiron_1420.jpg/1280px-Dell_Inspiron_1420.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Lenovo IdeaPad Slim 3",
+      "slug": "lenovo-ideapad-slim-3",
+      "sku": "LAP-2119",
+      "brand": "Lenovo",
+      "description": "14-inch FHD laptop with Ryzen 5, 8GB RAM and 256GB SSD — lightweight at under 1.6 kg with rapid charge support.",
+      "price": 38990,
+      "discountPercent": 18,
+      "stock": 34,
+      "rating": 3.9,
+      "ratingCount": 388,
+      "categorySlug": "laptops",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 40,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lenovo_IdeaPad_Yoga_13_%281%29.jpg/1280px-Lenovo_IdeaPad_Yoga_13_%281%29.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "ASUS ROG Zephyrus G14",
+      "slug": "asus-rog-zephyrus-g14",
+      "sku": "LAP-6257",
+      "brand": "ASUS",
+      "description": "14-inch QHD 165Hz gaming laptop with Ryzen 9, RTX 4060 and 16GB RAM — desktop-grade power in a 1.7 kg chassis.",
+      "price": 164990,
+      "discountPercent": 8,
+      "stock": 57,
+      "rating": 4,
+      "ratingCount": 226,
+      "categorySlug": "laptops",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 98,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Tokyo-Game-Show-2025_0121.jpg/1280px-Tokyo-Game-Show-2025_0121.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "MSI Katana 17 Gaming Laptop",
+      "slug": "msi-katana-17-gaming-laptop",
+      "sku": "LAP-9736",
+      "brand": "MSI",
+      "description": "17.3-inch 144Hz display with Intel Core i7, RTX 4050 and 16GB RAM for immersive big-screen gaming.",
+      "price": 112990,
+      "discountPercent": 12,
+      "stock": 46,
+      "rating": 3.7,
+      "ratingCount": 275,
+      "categorySlug": "laptops",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 97,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/MSI_Gaming_Laptop_on_wood_floor.jpg/1280px-MSI_Gaming_Laptop_on_wood_floor.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Samsung Galaxy S24 5G",
+      "slug": "samsung-galaxy-s24-5g",
+      "sku": "PHN-3942",
+      "brand": "Samsung",
+      "description": "6.2-inch Dynamic AMOLED 2X display, Exynos 2400, 50MP triple camera and 7 years of software updates.",
+      "price": 74999,
+      "discountPercent": 10,
+      "stock": 37,
+      "rating": 4.3,
+      "ratingCount": 841,
+      "categorySlug": "mobiles",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 63,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Samsung_Galaxy_S24_%28webtekno%29_001.png/1280px-Samsung_Galaxy_S24_%28webtekno%29_001.png"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple iPhone 15",
+      "slug": "apple-iphone-15",
+      "sku": "PHN-3646",
+      "brand": "Apple",
+      "description": "6.1-inch Super Retina XDR display with Dynamic Island, A16 Bionic and a 48MP main camera with 2x telephoto zoom.",
+      "price": 79900,
+      "discountPercent": 4,
+      "stock": 21,
+      "rating": 4.1,
+      "ratingCount": 355,
+      "categorySlug": "mobiles",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 7,
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/9c/IPhone_15_%E6%9C%BA%E5%9E%8B%E4%BB%B7%E6%A0%BC_%26_%E6%80%A7%E8%83%BD%E6%95%B0%E6%8D%AE%E5%AF%B9%E6%AF%94%E5%9B%BE.png"
+      ],
+      "variants": []
+    },
+    {
+      "name": "OnePlus 12 5G",
+      "slug": "oneplus-12-5g",
+      "sku": "PHN-5658",
+      "brand": "OnePlus",
+      "description": "6.82-inch 2K ProXDR display, Snapdragon 8 Gen 3, 100W SUPERVOOC charging and Hasselblad-tuned cameras.",
+      "price": 64999,
+      "discountPercent": 8,
+      "stock": 33,
+      "rating": 3.7,
+      "ratingCount": 437,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 99,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/OnePlus_6_Front1.jpg/1280px-OnePlus_6_Front1.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Google Pixel 8",
+      "slug": "google-pixel-8",
+      "sku": "PHN-3923",
+      "brand": "Google",
+      "description": "6.2-inch Actua display with Tensor G3, advanced AI photography and 7 years of OS updates.",
+      "price": 69999,
+      "discountPercent": 12,
+      "stock": 38,
+      "rating": 4.7,
+      "ratingCount": 502,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 44,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Google_Pixel_8%2C_shown_in_Shibuya_Stream.jpg/1280px-Google_Pixel_8%2C_shown_in_Shibuya_Stream.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Xiaomi Redmi Note 13 Pro",
+      "slug": "xiaomi-redmi-note-13-pro",
+      "sku": "PHN-4087",
+      "brand": "Xiaomi",
+      "description": "6.67-inch AMOLED 120Hz display, 200MP camera, Snapdragon 7s Gen 2 and 67W turbo charging.",
+      "price": 23999,
+      "discountPercent": 14,
+      "stock": 22,
+      "rating": 4.2,
+      "ratingCount": 216,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 88,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Xiaomi_Redmi_Note_4_Front.jpg/1280px-Xiaomi_Redmi_Note_4_Front.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Nothing Phone (2)",
+      "slug": "nothing-phone-2",
+      "sku": "PHN-6416",
+      "brand": "Nothing",
+      "description": "6.7-inch LTPO OLED display with Glyph interface, Snapdragon 8+ Gen 1 and a clean Nothing OS experience.",
+      "price": 37999,
+      "discountPercent": 10,
+      "stock": 0,
+      "rating": 4.3,
+      "ratingCount": 235,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 17,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Nothing_Phone_%281%29_back_-_white.jpg/1280px-Nothing_Phone_%281%29_back_-_white.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Vivo V30e 5G",
+      "slug": "vivo-v30e-5g",
+      "sku": "PHN-9191",
+      "brand": "Vivo",
+      "description": "6.78-inch AMOLED 120Hz display with 50MP Sony OIS camera and 5500mAh battery in a slim 7.65mm body.",
+      "price": 27999,
+      "discountPercent": 15,
+      "stock": 46,
+      "rating": 4.5,
+      "ratingCount": 300,
+      "categorySlug": "mobiles",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 32,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Vivo_V7.jpg/1280px-Vivo_V7.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple iPad Pro 11-inch M4",
+      "slug": "apple-ipad-pro-11-inch-m4",
+      "sku": "TAB-6192",
+      "brand": "Apple",
+      "description": "11-inch Ultra Retina Tandem OLED display with M4 chip, 128GB storage and all-day battery life.",
+      "price": 99900,
+      "discountPercent": 3,
+      "stock": 17,
+      "rating": 4.4,
+      "ratingCount": 241,
+      "categorySlug": "tablets",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 33,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/IPad_Pro.jpg/1280px-IPad_Pro.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple iPad Air 11-inch M2",
+      "slug": "apple-ipad-air-11-inch-m2",
+      "sku": "TAB-1261",
+      "brand": "Apple",
+      "description": "11-inch Liquid Retina display with M2 chip, Apple Pencil Pro support and Landscape camera.",
+      "price": 59900,
+      "discountPercent": 5,
+      "stock": 11,
+      "rating": 4.3,
+      "ratingCount": 890,
+      "categorySlug": "tablets",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 22,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/IPad_Air.png/1280px-IPad_Air.png"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Samsung Galaxy Tab S9 FE",
+      "slug": "samsung-galaxy-tab-s9-fe",
+      "sku": "TAB-2283",
+      "brand": "Samsung",
+      "description": "10.9-inch 90Hz display with Exynos 1380, IP68 water resistance and S Pen included in the box.",
+      "price": 36999,
+      "discountPercent": 12,
+      "stock": 58,
+      "rating": 4.5,
+      "ratingCount": 222,
+      "categorySlug": "tablets",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 84,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%ED%83%AD_S9.jpg/1280px-20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%ED%83%AD_S9.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Xiaomi Pad 6",
+      "slug": "xiaomi-pad-6",
+      "sku": "TAB-5166",
+      "brand": "Xiaomi",
+      "description": "11-inch 144Hz 2.8K display, Snapdragon 870 and quad speakers — a media and study powerhouse.",
+      "price": 26999,
+      "discountPercent": 16,
+      "stock": 26,
+      "rating": 4.7,
+      "ratingCount": 115,
+      "categorySlug": "tablets",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 87,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%BD%8C%E6%95%A6%E9%81%93_601_Nathan_Road_%E5%89%B5%E8%88%88%E5%BB%A3%E5%A0%B4_Chong_Hing_Square_shop_%E5%B0%8F%E7%B1%B3%E4%B9%8B%E5%AE%B6_%E6%97%97%E8%89%A6%E5%BA%97_XiaoMi_Store_December_2021_SS2_20.jpg/1280px-HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%BD%8C%E6%95%A6%E9%81%93_601_Nathan_Road_%E5%89%B5%E8%88%88%E5%BB%A3%E5%A0%B4_Chong_Hing_Square_shop_%E5%B0%8F%E7%B1%B3%E4%B9%8B%E5%AE%B6_%E6%97%97%E8%89%A6%E5%BA%97_XiaoMi_Store_December_2021_SS2_20.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Bose QuietComfort Ultra Headphones",
+      "slug": "bose-quietcomfort-ultra-headphones",
+      "sku": "AUD-6648",
+      "brand": "Bose",
+      "description": "Immersive spatial audio with world-class noise cancellation and plush comfort for long listening sessions.",
+      "price": 34990,
+      "discountPercent": 8,
+      "stock": 33,
+      "rating": 4.1,
+      "ratingCount": 767,
+      "categorySlug": "headphones-audio",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 9,
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/19/Bose_Quiet_Comfort_2.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Soundcore by Anker Q30 Hybrid ANC",
+      "slug": "soundcore-by-anker-q30-hybrid-anc",
+      "sku": "AUD-9626",
+      "brand": "Anker",
+      "description": "Hybrid active noise cancellation with multiple modes, 40-hour playtime and Hi-Res certified drivers.",
+      "price": 7999,
+      "discountPercent": 22,
+      "stock": 11,
+      "rating": 4.7,
+      "ratingCount": 325,
+      "categorySlug": "headphones-audio",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 107,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Anker_SoundCore_-_2.jpg/1280px-Anker_SoundCore_-_2.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Audio-Technica ATH-M50x Studio Headphones",
+      "slug": "audio-technica-ath-m50x-studio-headphones",
+      "sku": "AUD-2014",
+      "brand": "Audio-Technica",
+      "description": "The studio standard with accurate audio reproduction, collapsible design and replaceable earpads.",
+      "price": 14990,
+      "discountPercent": 10,
+      "stock": 39,
+      "rating": 4.9,
+      "ratingCount": 863,
+      "categorySlug": "headphones-audio",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 55,
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/50/Audio-Technica_ATH-A500_%282%29.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "JBL Flip 6 Portable Speaker",
+      "slug": "jbl-flip-6-portable-speaker",
+      "sku": "AUD-3250",
+      "brand": "JBL",
+      "description": "Portable Bluetooth speaker with IP67 waterproofing, bold JBL Original Pro Sound and 12-hour battery.",
+      "price": 9999,
+      "discountPercent": 15,
+      "stock": 55,
+      "rating": 3.7,
+      "ratingCount": 789,
+      "categorySlug": "headphones-audio",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 91,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/JBL_Flip_3_bluetooth_speaker_%28DSCF2653%29.jpg/1280px-JBL_Flip_3_bluetooth_speaker_%28DSCF2653%29.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Garmin Forerunner 55 GPS Watch",
+      "slug": "garmin-forerunner-55-gps-watch",
+      "sku": "SMW-7416",
+      "brand": "Garmin",
+      "description": "GPS running watch with pace guidance, heart-rate tracking and up to 2 weeks of battery in smartwatch mode.",
+      "price": 15990,
+      "discountPercent": 10,
+      "stock": 11,
+      "rating": 4.6,
+      "ratingCount": 155,
+      "categorySlug": "smart-watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 57,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/GarminForerunner310XT.jpg/1280px-GarminForerunner310XT.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Huawei Band 7 Fitness Band",
+      "slug": "huawei-band-7-fitness-band",
+      "sku": "SMW-7796",
+      "brand": "Huawei",
+      "description": "Ultra-slim AMOLED band with SpO2 monitoring, 14-day battery and 96 workout modes.",
+      "price": 3999,
+      "discountPercent": 25,
+      "stock": 26,
+      "rating": 3.7,
+      "ratingCount": 475,
+      "categorySlug": "smart-watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 77,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Slingshot_band_failure.jpg/1280px-Slingshot_band_failure.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Samsung Galaxy Watch6",
+      "slug": "samsung-galaxy-watch6",
+      "sku": "SMW-4140",
+      "brand": "Samsung",
+      "description": "40mm smartwatch with bioactive sensor, sleep coaching and Wear OS powered by Samsung.",
+      "price": 27999,
+      "discountPercent": 15,
+      "stock": 35,
+      "rating": 3.7,
+      "ratingCount": 379,
+      "categorySlug": "smart-watches",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 21,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Samsung_Galaxy_Watch_3.jpg/1280px-Samsung_Galaxy_Watch_3.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Apple Watch SE (2nd Gen)",
+      "slug": "apple-watch-se-2nd-gen",
+      "sku": "SMW-9717",
+      "brand": "Apple",
+      "description": "Crash Detection, heart-rate notifications and workout tracking in a lightweight Retina display design.",
+      "price": 29900,
+      "discountPercent": 6,
+      "stock": 7,
+      "rating": 4.6,
+      "ratingCount": 776,
+      "categorySlug": "smart-watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 78,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Apple_Watch_Sport.jpg/1280px-Apple_Watch_Sport.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Fitbit Versa 4 Fitness Smartwatch",
+      "slug": "fitbit-versa-4-fitness-smartwatch",
+      "sku": "SMW-2452",
+      "brand": "Fitbit",
+      "description": "Daily Readiness Score, built-in GPS, 40+ exercise modes and 6+ days of battery life.",
+      "price": 18999,
+      "discountPercent": 18,
+      "stock": 17,
+      "rating": 4.6,
+      "ratingCount": 191,
+      "categorySlug": "smart-watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 13,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Fitbit_versa.jpg/1280px-Fitbit_versa.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Amazfit GTS 4 Mini Smartwatch",
+      "slug": "amazfit-gts-4-mini-smartwatch",
+      "sku": "SMW-6958",
+      "brand": "Amazfit",
+      "description": "1.65-inch AMOLED display with 120+ sports modes, GPS and 15-day typical battery life.",
+      "price": 8999,
+      "discountPercent": 25,
+      "stock": 23,
+      "rating": 4.6,
+      "ratingCount": 487,
+      "categorySlug": "smart-watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 79,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Altura_Estadio_Mushuc_Runa.jpg/1280px-Altura_Estadio_Mushuc_Runa.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Xiaomi Smart Band 8",
+      "slug": "xiaomi-smart-band-8",
+      "sku": "SMW-6785",
+      "brand": "Xiaomi",
+      "description": "1.62-inch AMOLED display with 100+ sports modes, SpO2 tracking and 16-day battery life.",
+      "price": 3499,
+      "discountPercent": 20,
+      "stock": 50,
+      "rating": 4.9,
+      "ratingCount": 684,
+      "categorySlug": "smart-watches",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 26,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Xiaomi_Mi_Band_Black.jpg/1280px-Xiaomi_Mi_Band_Black.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "TicWatch Pro 5 Endurance Smartwatch",
+      "slug": "ticwatch-pro-5-endurance-smartwatch",
+      "sku": "SMW-5231",
+      "brand": "Mobvoi",
+      "description": "Dual-layer display with Wear OS, Snapdragon W5+ and up to 45 days of battery in essential mode.",
+      "price": 24999,
+      "discountPercent": 12,
+      "stock": 41,
+      "rating": 4.2,
+      "ratingCount": 800,
+      "categorySlug": "smart-watches",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 32,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/US_Navy_061116-N-7130B-152_Operations_Specialist_2nd_Class_Ember_Price_stands_watch_as_the_tactical_information_coordinator_%28TIC%29_in_the_Combat_Direction_Center_%28CDC%29_aboard_USS_Ronald_Reagan_%28CVN_76%29.jpg/1280px-thumbnail.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Logitech MX Master 3S Wireless Mouse",
+      "slug": "logitech-mx-master-3s-wireless-mouse",
+      "sku": "ACC-1179",
+      "brand": "Logitech",
+      "description": "8K DPI sensor, quiet clicks, MagSpeed scroll wheel and USB-C quick charge for power users.",
+      "price": 8995,
+      "discountPercent": 10,
+      "stock": 19,
+      "rating": 4.1,
+      "ratingCount": 398,
+      "categorySlug": "accessories",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 60,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/2017_Mysz_komputerowa_Logitech_MX_Master.jpg/1280px-2017_Mysz_komputerowa_Logitech_MX_Master.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Keychron K8 Pro Wireless Mechanical Keyboard",
+      "slug": "keychron-k8-pro-wireless-mechanical-keyboard",
+      "sku": "ACC-5207",
+      "brand": "Keychron",
+      "description": "Tenkeyless hot-swappable mechanical keyboard with QMK/VIA support and triple connectivity.",
+      "price": 9999,
+      "discountPercent": 12,
+      "stock": 27,
+      "rating": 3.9,
+      "ratingCount": 126,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 8,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/QWERTY_keyboard.jpg/1280px-QWERTY_keyboard.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "WD My Passport 2TB External HDD",
+      "slug": "wd-my-passport-2tb-external-hdd",
+      "sku": "ACC-3277",
+      "brand": "Western Digital",
+      "description": "2TB portable hard drive with hardware encryption, backup software and USB 3.2 connectivity.",
+      "price": 6499,
+      "discountPercent": 18,
+      "stock": 52,
+      "rating": 4.9,
+      "ratingCount": 296,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 118,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Usb_firewire_hard_disk_enclosure.jpg/1280px-Usb_firewire_hard_disk_enclosure.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Logitech C920 Full HD Webcam",
+      "slug": "logitech-c920-full-hd-webcam",
+      "sku": "ACC-1571",
+      "brand": "Logitech",
+      "description": "1080p/30fps video with dual stereo microphones, automatic light correction and universal clip mount.",
+      "price": 7495,
+      "discountPercent": 20,
+      "stock": 0,
+      "rating": 4,
+      "ratingCount": 10,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 92,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Webcam_Logitech.JPG/1280px-Webcam_Logitech.JPG"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Samsung 980 PRO 1TB NVMe SSD",
+      "slug": "samsung-980-pro-1tb-nvme-ssd",
+      "sku": "ACC-6746",
+      "brand": "Samsung",
+      "description": "PCIe 4.0 NVMe SSD with up to 7,000MB/s reads — ideal for gaming rigs and video editing.",
+      "price": 10999,
+      "discountPercent": 16,
+      "stock": 21,
+      "rating": 3.8,
+      "ratingCount": 575,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 107,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Samsung_SSD_840_EVO-front_left_PNr%C2%B00418.jpg/1280px-Samsung_SSD_840_EVO-front_left_PNr%C2%B00418.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Dell 24-inch FHD Monitor",
+      "slug": "dell-24-inch-fhd-monitor",
+      "sku": "ACC-5436",
+      "brand": "Dell",
+      "description": "23.8-inch IPS FHD display with 75Hz refresh, ComfortView low blue light and slim bezels.",
+      "price": 11499,
+      "discountPercent": 14,
+      "stock": 6,
+      "rating": 4.8,
+      "ratingCount": 55,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 117,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Computer_monitor_screen_image_simulated.jpg/1280px-Computer_monitor_screen_image_simulated.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Anker 65W GaN USB-C Charger",
+      "slug": "anker-65w-gan-usb-c-charger",
+      "sku": "ACC-8463",
+      "brand": "Anker",
+      "description": "Compact 65W GaN charger with two USB-C and one USB-A port — powers laptop and phone together.",
+      "price": 3999,
+      "discountPercent": 20,
+      "stock": 58,
+      "rating": 3.8,
+      "ratingCount": 32,
+      "categorySlug": "accessories",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 24,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AnkerAstro.jpg/1280px-AnkerAstro.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Samsung 253 L Double Door Refrigerator",
+      "slug": "samsung-253-l-double-door-refrigerator",
+      "sku": "HAP-2256",
+      "brand": "Samsung",
+      "description": "Frost-free double door fridge with Digital Inverter compressor, convertible freezer and stabiliser-free operation.",
+      "price": 28990,
+      "discountPercent": 15,
+      "stock": 56,
+      "rating": 4.2,
+      "ratingCount": 545,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 57,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/LG_refrigerator_interior.jpg/1280px-LG_refrigerator_interior.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Voltas 1.5 Ton 5 Star Split AC",
+      "slug": "voltas-1-5-ton-5-star-split-ac",
+      "sku": "HAP-7061",
+      "brand": "Voltas",
+      "description": "5-star inverter split AC with copper condenser, PM 2.5 filter and rapid cooling in minutes.",
+      "price": 41990,
+      "discountPercent": 20,
+      "stock": 51,
+      "rating": 4.5,
+      "ratingCount": 30,
+      "categorySlug": "home-appliances",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 62,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Air_conditioner_ballu.jpg/1280px-Air_conditioner_ballu.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Blue Star 1 Ton 3 Star Inverter AC",
+      "slug": "blue-star-1-ton-3-star-inverter-ac",
+      "sku": "HAP-6707",
+      "brand": "Blue Star",
+      "description": "Inverter split AC with precise cooling, self-clean technology and anti-bacterial filter.",
+      "price": 33990,
+      "discountPercent": 16,
+      "stock": 2,
+      "rating": 4.1,
+      "ratingCount": 646,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 68,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Air_conditioner_14.jpg/1280px-Air_conditioner_14.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Eureka Forbes Vacuum Cleaner",
+      "slug": "eureka-forbes-vacuum-cleaner",
+      "sku": "HAP-1964",
+      "brand": "Eureka Forbes",
+      "description": "Bagless cyclonic vacuum with HEPA filtration, multiple floor attachments and 1.5L dust capacity.",
+      "price": 7499,
+      "discountPercent": 25,
+      "stock": 59,
+      "rating": 4.6,
+      "ratingCount": 453,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 5,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Vacuum_cleaner.jpg/1280px-Vacuum_cleaner.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Philips Air Fryer 4.1 L",
+      "slug": "philips-air-fryer-4-1-l",
+      "sku": "HAP-8520",
+      "brand": "Philips",
+      "description": "Rapid Air technology fries with up to 90% less fat — bake, grill and roast with one dial.",
+      "price": 9995,
+      "discountPercent": 20,
+      "stock": 45,
+      "rating": 4.9,
+      "ratingCount": 669,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 81,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Air_fryer_interior.jpg/1280px-Air_fryer_interior.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Bosch 12 Place Setting Dishwasher",
+      "slug": "bosch-12-place-setting-dishwasher",
+      "sku": "HAP-7341",
+      "brand": "Bosch",
+      "description": "Fully automatic dishwasher with 6 programmes, EcoSilence drive and active water drying.",
+      "price": 32990,
+      "discountPercent": 14,
+      "stock": 21,
+      "rating": 4.1,
+      "ratingCount": 450,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 102,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Dishwasher_open_for_loading.jpg/1280px-Dishwasher_open_for_loading.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Crompton Super Fan 1200 mm Ceiling Fan",
+      "slug": "crompton-super-fan-1200-mm-ceiling-fan",
+      "sku": "HAP-6146",
+      "brand": "Crompton",
+      "description": "High-speed 1200mm fan with aerodynamically balanced blades and low-noise motor.",
+      "price": 2499,
+      "discountPercent": 12,
+      "stock": 56,
+      "rating": 4.3,
+      "ratingCount": 785,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 107,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Fan%2Cceiling%2CTamil_Nadu447.jpeg/1280px-Fan%2Cceiling%2CTamil_Nadu447.jpeg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Aquaguard Marvel Water Purifier",
+      "slug": "aquaguard-marvel-water-purifier",
+      "sku": "HAP-2500",
+      "brand": "Eureka Forbes",
+      "description": "RO+UV+UF purification with active copper and IoT filter-change alerts for purest drinking water.",
+      "price": 11999,
+      "discountPercent": 22,
+      "stock": 50,
+      "rating": 3.9,
+      "ratingCount": 299,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 61,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Water_purification%2C_June_2011.jpg/1280px-Water_purification%2C_June_2011.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Preethi Zodiac Mixer Grinder 750W",
+      "slug": "preethi-zodiac-mixer-grinder-750w",
+      "sku": "HAP-4308",
+      "brand": "Preethi",
+      "description": "750W mixer grinder with 5 jars, flexi-lid and vega W5 motor for tough grinding tasks.",
+      "price": 5499,
+      "discountPercent": 18,
+      "stock": 18,
+      "rating": 4.7,
+      "ratingCount": 197,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 69,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mischwolf_Industrie_MAW200.jpg/1280px-Mischwolf_Industrie_MAW200.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "IFB 25 L Convection Microwave Oven",
+      "slug": "ifb-25-l-convection-microwave-oven",
+      "sku": "HAP-7603",
+      "brand": "IFB",
+      "description": "25-litre convection microwave with 10 power levels, grill function and child safety lock.",
+      "price": 12990,
+      "discountPercent": 16,
+      "stock": 48,
+      "rating": 4,
+      "ratingCount": 632,
+      "categorySlug": "home-appliances",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 4,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/NS_Savannah_microwave_oven_MD8.jpg/1280px-NS_Savannah_microwave_oven_MD8.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "American Tourister Spinner Trolley",
+      "slug": "american-tourister-spinner-trolley",
+      "sku": "BAG-9281",
+      "brand": "American Tourister",
+      "description": "55cm hardside cabin trolley with 4 double wheels, TSA lock and organised interior compartments.",
+      "price": 5499,
+      "discountPercent": 30,
+      "stock": 51,
+      "rating": 4.8,
+      "ratingCount": 600,
+      "categorySlug": "bags-luggage",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 2,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Belber_Striped_Suitcase.jpg/1280px-Belber_Striped_Suitcase.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "SG Cobra English Willow Cricket Bat",
+      "slug": "sg-cobra-english-willow-cricket-bat",
+      "sku": "SPT-2510",
+      "brand": "SG",
+      "description": "Grade 3 English willow bat with large sweet spot, pre-knocked and shaped for power hitting.",
+      "price": 4999,
+      "discountPercent": 15,
+      "stock": 50,
+      "rating": 4.2,
+      "ratingCount": 809,
+      "categorySlug": "sports-fitness",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAtDaysAgo": 71,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Indore_Cricket_Bat.JPG/1280px-Indore_Cricket_Bat.JPG"
+      ],
+      "variants": []
+    },
+    {
+      "name": "SG Test Cricket Ball (Set of 6)",
+      "slug": "sg-test-cricket-ball-set-of-6",
+      "sku": "SPT-8529",
+      "brand": "SG",
+      "description": "Hand-stitched leather cricket balls with raised seam for true bounce — match practice ready.",
+      "price": 1499,
+      "discountPercent": 10,
+      "stock": 19,
+      "rating": 4.2,
+      "ratingCount": 188,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 90,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Cricket_ball_G%26M.jpg/1280px-Cricket_ball_G%26M.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Nike Strike Football",
+      "slug": "nike-strike-football",
+      "sku": "SPT-1474",
+      "brand": "Nike",
+      "description": "Machine-stitched 32-panel football with textured casing for accurate flight and grip.",
+      "price": 1799,
+      "discountPercent": 12,
+      "stock": 44,
+      "rating": 4.3,
+      "ratingCount": 103,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 115,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Fu%C3%9Fballgeschichte_%281872%29.jpg/1280px-Fu%C3%9Fballgeschichte_%281872%29.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Kore PVC Dumbbells 20 kg Pair",
+      "slug": "kore-pvc-dumbbells-20-kg-pair",
+      "sku": "SPT-5286",
+      "brand": "Kore",
+      "description": "Filled PVC dumbbell pair for home strength training — rust-free and beginner friendly.",
+      "price": 1999,
+      "discountPercent": 25,
+      "stock": 26,
+      "rating": 4.6,
+      "ratingCount": 505,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 87,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Dumbbell_Nebula_Widefield.jpg/1280px-Dumbbell_Nebula_Widefield.jpg"
+      ],
+      "variants": []
+    },
+    {
+      "name": "Boldfit Anti-Slip Yoga Mat 6 mm",
+      "slug": "boldfit-anti-slip-yoga-mat-6-mm",
+      "sku": "SPT-7764",
+      "brand": "Boldfit",
+      "description": "6mm NBR yoga mat with alignment lines, carry strap and cushioned joint support.",
+      "price": 899,
+      "discountPercent": 30,
+      "stock": 29,
+      "rating": 3.9,
+      "ratingCount": 163,
+      "categorySlug": "sports-fitness",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAtDaysAgo": 45,
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Tomare_Yoga_Mats.JPG/1280px-Tomare_Yoga_Mats.JPG"
+      ],
+      "variants": []
+    }
+  ],
+  "accounts": {
+    "admin": {
+      "email": "admin@quickshop.dev",
+      "fullName": "QuickShop Admin",
+      "password": "Admin@12345",
+      "addresses": [
+        {
+          "fullName": "QuickShop Admin",
+          "phone": "9880011111",
+          "line1": "10, Cyber Tower, Residency Road",
+          "line2": null,
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "postalCode": "560025",
+          "country": "India"
+        }
+      ]
+    },
+    "customers": [
+      {
+        "email": "rahul.sharma@demo.dev",
+        "fullName": "Rahul Sharma",
+        "password": "Demo@12345",
+        "addresses": [
+          {
+            "fullName": "Rahul Sharma",
+            "phone": "9845012345",
+            "line1": "42, 4th Cross, Indiranagar",
+            "line2": "Near CMH Road",
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "postalCode": "560038",
+            "country": "India"
+          },
+          {
+            "fullName": "Rahul Sharma",
+            "phone": "9845012345",
+            "line1": "Plot 77, HSR Layout Sector 2",
+            "line2": null,
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "postalCode": "560102",
+            "country": "India"
+          }
+        ]
+      },
+      {
+        "email": "priya.verma@demo.dev",
+        "fullName": "Priya Verma",
+        "password": "Demo@12345",
+        "addresses": [
+          {
+            "fullName": "Priya Verma",
+            "phone": "9987654321",
+            "line1": "1201, Sea Breeze CHS, Juhu Tara Road",
+            "line2": null,
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "postalCode": "400049",
+            "country": "India"
+          }
+        ]
+      },
+      {
+        "email": "arjun.iyer@demo.dev",
+        "fullName": "Arjun Iyer",
+        "password": "Demo@12345",
+        "addresses": [
+          {
+            "fullName": "Arjun Iyer",
+            "phone": "9123456780",
+            "line1": "8, Kamaraj Nagar 2nd Street",
+            "line2": "Adyar",
+            "city": "Chennai",
+            "state": "Tamil Nadu",
+            "postalCode": "600020",
+            "country": "India"
+          }
+        ]
+      }
+    ]
+  },
+  "orders": [
+    {
+      "customerEmail": "rahul.sharma@demo.dev",
+      "daysAgo": 42,
+      "status": "Delivered",
+      "shippingMethod": "standard",
+      "cardLast4": "4242",
+      "lines": [
+        {
+          "sku": "FUR-7936",
+          "quantity": 1
+        },
+        {
+          "sku": "KIT-2846",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "priya.verma@demo.dev",
+      "daysAgo": 36,
+      "status": "Delivered",
+      "shippingMethod": "standard",
+      "cardLast4": "1111",
+      "lines": [
+        {
+          "sku": "KIT-4200",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "customerEmail": "arjun.iyer@demo.dev",
+      "daysAgo": 31,
+      "status": "Delivered",
+      "shippingMethod": "standard",
+      "cardLast4": "0005",
+      "lines": [
+        {
+          "sku": "KIT-4428",
+          "quantity": 1
+        },
+        {
+          "sku": "KIT-7397",
+          "quantity": 1
+        },
+        {
+          "sku": "CLO-3212",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "rahul.sharma@demo.dev",
+      "daysAgo": 27,
+      "status": "Delivered",
+      "shippingMethod": "express",
+      "cardLast4": "4242",
+      "lines": [
+        {
+          "sku": "KIT-6393",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "priya.verma@demo.dev",
+      "daysAgo": 22,
+      "status": "Delivered",
+      "shippingMethod": "standard",
+      "cardLast4": "1111",
+      "lines": [
+        {
+          "sku": "KIT-7496",
+          "quantity": 1
+        },
+        {
+          "sku": "SHO-5259",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "arjun.iyer@demo.dev",
+      "daysAgo": 19,
+      "status": "Cancelled",
+      "shippingMethod": "standard",
+      "cardLast4": "0005",
+      "lines": [
+        {
+          "sku": "LAP-2200",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "rahul.sharma@demo.dev",
+      "daysAgo": 15,
+      "status": "Delivered",
+      "shippingMethod": "standard",
+      "cardLast4": "4242",
+      "lines": [
+        {
+          "sku": "SHO-6345",
+          "quantity": 2
+        },
+        {
+          "sku": "AUD-1933",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "customerEmail": "priya.verma@demo.dev",
+      "daysAgo": 12,
+      "status": "Delivered",
+      "shippingMethod": "standard",
+      "cardLast4": "1111",
+      "lines": [
+        {
+          "sku": "WCH-9527",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "arjun.iyer@demo.dev",
+      "daysAgo": 9,
+      "status": "Delivered",
+      "shippingMethod": "standard",
+      "cardLast4": "0005",
+      "lines": [
+        {
+          "sku": "ACC-9822",
+          "quantity": 1
+        },
+        {
+          "sku": "PHN-6069",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "rahul.sharma@demo.dev",
+      "daysAgo": 7,
+      "status": "Delivered",
+      "shippingMethod": "standard",
+      "cardLast4": "4242",
+      "lines": [
+        {
+          "sku": "PHN-4870",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "priya.verma@demo.dev",
+      "daysAgo": 5,
+      "status": "Shipped",
+      "shippingMethod": "express",
+      "cardLast4": "1111",
+      "lines": [
+        {
+          "sku": "PHN-5683",
+          "quantity": 1
+        },
+        {
+          "sku": "SPT-6245",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "arjun.iyer@demo.dev",
+      "daysAgo": 4,
+      "status": "Shipped",
+      "shippingMethod": "standard",
+      "cardLast4": "0005",
+      "lines": [
+        {
+          "sku": "SPT-6290",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "rahul.sharma@demo.dev",
+      "daysAgo": 3,
+      "status": "Shipped",
+      "shippingMethod": "standard",
+      "cardLast4": "4242",
+      "lines": [
+        {
+          "sku": "SPT-1265",
+          "quantity": 1
+        },
+        {
+          "sku": "CLO-9647",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "priya.verma@demo.dev",
+      "daysAgo": 2,
+      "status": "Processing",
+      "shippingMethod": "standard",
+      "cardLast4": "1111",
+      "lines": [
+        {
+          "sku": "SPT-4834",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "customerEmail": "arjun.iyer@demo.dev",
+      "daysAgo": 1,
+      "status": "Processing",
+      "shippingMethod": "standard",
+      "cardLast4": "0005",
+      "lines": [
+        {
+          "sku": "CLO-3175",
+          "quantity": 1
+        },
+        {
+          "sku": "SHO-6823",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "rahul.sharma@demo.dev",
+      "daysAgo": 1,
+      "status": "Paid",
+      "shippingMethod": "standard",
+      "cardLast4": "4242",
+      "lines": [
+        {
+          "sku": "BAG-6431",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "customerEmail": "priya.verma@demo.dev",
+      "daysAgo": 0,
+      "status": "Paid",
+      "shippingMethod": "express",
+      "cardLast4": "1111",
+      "lines": [
+        {
+          "sku": "SHO-6644",
+          "quantity": 1
+        },
+        {
+          "sku": "LAP-6257",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
