@@ -20,6 +20,7 @@ const form = reactive({
 const loading = ref(false)
 const error = ref('')
 const fieldErrors = ref<Record<string, string[]>>({})
+const showPassword = ref(false)
 
 async function submit() {
   loading.value = true
@@ -115,15 +116,29 @@ async function submit() {
                 Forgot password?
               </router-link>
             </div>
-            <input
-              id="password"
-              v-model="form.password"
-              type="password"
-              class="input"
-              autocomplete="current-password"
-              required
-              data-testid="login-password"
-            />
+            <div class="relative">
+              <input
+                id="password"
+                v-model="form.password"
+                :type="showPassword ? 'text' : 'password'"
+                class="input pr-10"
+                autocomplete="current-password"
+                required
+                data-testid="login-password"
+              />
+              <button
+                type="button"
+                class="absolute right-2 top-1/2 -translate-y-1/2 rounded p-1.5 text-slate-400 hover:text-slate-600"
+                :aria-label="showPassword ? 'Hide password' : 'Show password'"
+                :aria-pressed="showPassword"
+                data-testid="toggle-password"
+                @click="showPassword = !showPassword"
+              >
+                <!-- Eye (hidden) / eye-off (visible) -->
+                <svg v-if="!showPassword" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z" stroke-linecap="round" stroke-linejoin="round" /><circle cx="12" cy="12" r="3" /></svg>
+                <svg v-else viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5"><path d="M9.9 5.7A9.8 9.8 0 0 1 12 5.5c6 0 9.5 6.5 9.5 6.5a17.6 17.6 0 0 1-3 3.9M6.1 6.1A17.7 17.7 0 0 0 2.5 12S6 18.5 12 18.5c1.5 0 2.8-.4 4-1M3 3l18 18M10 10a3 3 0 0 0 4 4" stroke-linecap="round" stroke-linejoin="round" /></svg>
+              </button>
+            </div>
           </div>
 
           <label class="flex cursor-pointer items-center gap-2 text-sm text-slate-600">

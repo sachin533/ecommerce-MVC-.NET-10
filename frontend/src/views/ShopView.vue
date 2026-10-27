@@ -22,6 +22,7 @@ const state = reactive({
   minPrice: (route.query.minPrice as string) ?? '',
   maxPrice: (route.query.maxPrice as string) ?? '',
   inStockOnly: route.query.inStockOnly === 'true',
+  featured: route.query.featured === 'true',
   sort: (route.query.sort as string) ?? 'newest',
   page: Number(route.query.page ?? 1),
 })
@@ -54,6 +55,7 @@ async function load() {
         minPrice: state.minPrice ? Number(state.minPrice) : undefined,
         maxPrice: state.maxPrice ? Number(state.maxPrice) : undefined,
         inStockOnly: state.inStockOnly || undefined,
+        featured: state.featured || undefined,
         sort: state.sort as never,
         page: state.page,
         pageSize: 12,
@@ -79,6 +81,7 @@ function syncUrl() {
   if (state.minPrice) query.minPrice = state.minPrice
   if (state.maxPrice) query.maxPrice = state.maxPrice
   if (state.inStockOnly) query.inStockOnly = 'true'
+  if (state.featured) query.featured = 'true'
   if (state.sort !== 'newest') query.sort = state.sort
   if (state.page > 1) query.page = String(state.page)
   router.replace({ query, params: route.params })
@@ -104,6 +107,7 @@ function clearFilters() {
   state.minPrice = ''
   state.maxPrice = ''
   state.inStockOnly = false
+  state.featured = false
   state.sort = 'newest'
   apply()
 }
@@ -115,11 +119,12 @@ function selectCategory(slug: string) {
 
 // Keep in sync when the route changes (e.g. header search or category nav).
 watch(
-  () => [route.params.slug, route.query.search, route.query.categorySlug, route.query.sort],
+  () => [route.params.slug, route.query.search, route.query.categorySlug, route.query.sort, route.query.featured],
   () => {
     state.categorySlug = (route.params.slug as string) ?? (route.query.categorySlug as string) ?? ''
     state.search = (route.query.search as string) ?? ''
     state.sort = (route.query.sort as string) ?? 'newest'
+    state.featured = route.query.featured === 'true'
     state.page = Number(route.query.page ?? 1)
     load()
   },
@@ -217,13 +222,14 @@ onMounted(load)
       <!-- Results -->
       <section>
         <!-- Active chips -->
-        <div v-if="state.brand || state.minPrice || state.maxPrice || state.inStockOnly || state.search" class="mb-4 flex flex-wrap gap-2">
+        <div v-if="state.brand || state.minPrice || state.maxPrice || state.inStockOnly || state.featured || state.search" class="mb-4 flex flex-wrap gap-2">
           <span v-if="state.search" class="badge bg-slate-100 text-slate-700">“{{ state.search }}”</span>
           <span v-if="state.brand" class="badge bg-slate-100 text-slate-700">{{ state.brand }}</span>
           <span v-if="state.minPrice || state.maxPrice" class="badge bg-slate-100 text-slate-700">
             ₹{{ state.minPrice || 0 }} – ₹{{ state.maxPrice || '∞' }}
           </span>
           <span v-if="state.inStockOnly" class="badge bg-slate-100 text-slate-700">In stock</span>
+          <span v-if="state.featured" class="badge bg-amber-100 text-amber-800">Featured only</span>
         </div>
 
         <!-- Sort bar -->

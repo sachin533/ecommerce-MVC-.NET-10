@@ -57,8 +57,10 @@ public class ProductImageConfiguration : IEntityTypeConfiguration<ProductImage>
         builder.ToTable("ProductImages");
 
         builder.Property(i => i.Url).HasMaxLength(1000).IsRequired();
+        builder.Property(i => i.AltText).HasMaxLength(300).IsRequired();
 
         builder.HasIndex(i => new { i.ProductId, i.SortOrder });
+        builder.HasIndex(i => new { i.ProductId, i.IsPrimary });
 
         builder.HasOne(i => i.Product)
             .WithMany(p => p.Images)

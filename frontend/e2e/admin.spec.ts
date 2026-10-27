@@ -20,6 +20,10 @@ test.describe('admin', () => {
   })
 
   test('admin dashboard shows store statistics', async ({ page }) => {
+    // Catalog size comes from the API so the assertion tracks the seed data.
+    const totalRes = await page.request.get('/api/products?page=1&pageSize=1')
+    const total = (await totalRes.json()).totalCount as number
+
     await loginAs(page, 'admin@quickshop.dev', 'Admin@12345')
     await page.goto('/admin')
 
@@ -27,7 +31,7 @@ test.describe('admin', () => {
     await expect(page.getByTestId('kpi-revenue')).not.toBeEmpty()
     await expect(page.getByTestId('kpi-orders')).not.toBeEmpty()
     await expect(page.getByTestId('kpi-customers')).not.toBeEmpty()
-    await expect(page.getByTestId('kpi-products')).toHaveText('186')
+    await expect(page.getByTestId('kpi-products')).toHaveText(String(total))
     await expect(page.getByTestId('kpi-low-stock')).toBeVisible()
   })
 

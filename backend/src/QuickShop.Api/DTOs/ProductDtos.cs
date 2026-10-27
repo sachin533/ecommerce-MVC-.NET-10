@@ -16,7 +16,7 @@ public class ProductQuery
     public bool? InStockOnly { get; set; }
     public bool? Featured { get; set; }
 
-    /// <summary>newest | price-asc | price-desc | rating | popularity</summary>
+    /// <summary>newest | price-asc | price-desc | rating | popularity | discount</summary>
     public string? Sort { get; set; }
 
     public int? Page { get; set; }
@@ -26,7 +26,7 @@ public class ProductQuery
     public bool? IncludeInactive { get; set; }
 }
 
-public record ProductImageDto(int Id, string Url, int SortOrder);
+public record ProductImageDto(int Id, string Url, string AltText, int SortOrder, bool IsPrimary);
 
 public record ProductVariantDto(
     int Id,

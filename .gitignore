@@ -22,3 +22,6 @@ appsettings.*.local.json
 *.suo
 Thumbs.db
 .DS_Store
+
+# logs (API/dev server output)
+*.log

@@ -13,6 +13,9 @@ export default defineConfig({
   },
   server: {
     port: 5173,
+    // Allow Cloudflare quick-tunnel hosts (e.g. *.trycloudflare.com) so the dev
+    // build can be shared publicly. Entries starting with '.' match any subdomain.
+    allowedHosts: ['.trycloudflare.com'],
     // The API allows this exact origin (with credentials) via CORS.
     proxy: {
       '/api': {

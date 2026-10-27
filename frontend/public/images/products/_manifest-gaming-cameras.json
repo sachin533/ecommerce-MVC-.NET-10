@@ -1,0 +1,138 @@
+[
+  {
+    "slug": "sony-wh-1000xm5",
+    "files": [
+      { "file": "sony-wh-1000xm5/1.png", "altText": "Sony WH-1000XM5 wireless noise-cancelling headphones in black, 3/4 studio render on white", "source": "sony-helpguide", "sourcePage": "https://helpguide.sony.net/mdr/wh1000xm5/v1/en/index.html", "viewed": true }
+    ],
+    "notes": "Only one clean official Sony render was reachable (helpguide.sony.net). sony.com/electronics, electronics.sony.com and images.sony.com all block non-browser requests; mma.prnewswire.com returned HTTP 401. No Wikimedia Commons files exist for this model."
+  },
+  {
+    "slug": "sony-wf-1000xm5",
+    "files": [
+      { "file": "sony-wf-1000xm5/1.png", "altText": "Sony WF-1000XM5 true-wireless earbuds in black, studio render on white", "source": "sony-helpguide", "sourcePage": "https://helpguide.sony.net/mdr/2963/v1/en/index.html", "viewed": true },
+      { "file": "sony-wf-1000xm5/2.png", "altText": "Sony WF-1000XM5 earbuds shown from two angles plus in-ear fit illustration", "source": "sony-helpguide", "sourcePage": "https://helpguide.sony.net/mdr/2963/v1/en/index.html", "viewed": true }
+    ],
+    "notes": "Official Sony help-guide renders; Sony retail/CDN domains block curl."
+  },
+  {
+    "slug": "sony-alpha-a6400",
+    "files": [
+      { "file": "sony-alpha-a6400/1.jpg", "altText": "Sony Alpha a6400 (ILCE-6400) with 16-50mm kit lens, front view on white", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-02-17_Sony_alpha_6400_IMG20220217210008.jpg", "viewed": true },
+      { "file": "sony-alpha-a6400/2.jpg", "altText": "Sony Alpha a6400 top view with 16-50mm kit lens", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:HK_goods_Sony_Camera_A6400_black_body_July_2021_SS2_03.jpg", "viewed": true },
+      { "file": "sony-alpha-a6400/3.jpg", "altText": "Sony Alpha a6400 side view showing E-mount port cover", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:HK_goods_Sony_Camera_A6400_black_body_July_2021_SS2_05.jpg", "viewed": true },
+      { "file": "sony-alpha-a6400/4.jpg", "altText": "Sony Alpha a6400 silver body with Sony G lens", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:SONYのα6400.jpg", "viewed": true },
+      { "file": "sony-alpha-a6400/5.jpg", "altText": "Sony Alpha a6400 top-rear view showing mode dial and 4K badge", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:HK_goods_Sony_Camera_A6400_black_body_July_2021_SS2_01.jpg", "viewed": true }
+    ],
+    "notes": "Rejected earlier handheld shots (hands holding camera). All kept images are genuine ILCE-6400 bodies."
+  },
+  {
+    "slug": "sony-zv1",
+    "files": [
+      { "file": "sony-zv1/1.jpg", "altText": "Sony ZV-1 vlog camera front view with Zeiss Vario-Sonnar lens on dark surface", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Sony_ZV-1_(50009804078).jpg", "viewed": true },
+      { "file": "sony-zv1/2.jpg", "altText": "Sony ZV-1 on GP-VPT2BT grip tripod, rear view with microphone windscreen", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Sony_ZV-1_and_GP-VPT2BT_sample_20201101.jpg", "viewed": true }
+    ]
+  },
+  {
+    "slug": "sony-playstation-5",
+    "files": [
+      { "file": "sony-playstation-5/1.jpg", "altText": "Sony PlayStation 5 console (Disc edition) standing vertically with DualSense controller", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Playstation_5_base_edition_with_controller_(original).jpg", "viewed": true },
+      { "file": "sony-playstation-5/2.jpg", "altText": "Sony PlayStation 5 console (white) standing vertically, front-side view", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Playstation_5.jpg", "viewed": true }
+    ]
+  },
+  {
+    "slug": "sony-dualsense",
+    "files": [
+      { "file": "sony-dualsense/1.jpg", "altText": "Sony PlayStation 5 DualSense wireless controller in white, top-down front view", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:KontrolerDualSense.jpg", "viewed": true },
+      { "file": "sony-dualsense/2.jpg", "altText": "Sony DualSense controller close-up, black and white detail angle", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Playstation_Dualsense_controller.jpg", "viewed": true },
+      { "file": "sony-dualsense/3.jpg", "altText": "Sony DualSense controller in white, charging beside a PlayStation 5", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:PlayStation_5_and_DualSense.jpg", "viewed": true }
+    ]
+  },
+  {
+    "slug": "sony-bravia-x90l-55",
+    "files": [],
+    "notes": "No usable image could be downloaded. Sony blocks curl on sony.com, electronics.sony.com, all regional sites and images.sony.com/Scene7. Wikimedia Commons has no X90L/X90K/X90J photos. The PRNewswire press release for the 2023 BRAVIA lineup only embeds a Sony logo, and retailer CDNs (Best Buy, Walmart, B&H, Newegg, Amazon) and RTINGS are JS-rendered or blocked. No logo/spec substitute was used."
+  },
+  {
+    "slug": "nintendo-switch-oled",
+    "files": [
+      { "file": "nintendo-switch-oled/1.jpg", "altText": "Nintendo Switch OLED model with white Joy-Cons, handheld front view", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_OLED_model_(white).jpg", "viewed": true },
+      { "file": "nintendo-switch-oled/2.jpg", "altText": "Nintendo Switch OLED rear panel with Neon Red Joy-Con attached", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_OLED.JPG", "viewed": true },
+      { "file": "nintendo-switch-oled/3.jpg", "altText": "Nintendo Switch OLED (Neon Red) docked with Joy-Con grip", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Switch_OLED_Model.jpg", "viewed": true },
+      { "file": "nintendo-switch-oled/4.jpg", "altText": "Nintendo Switch OLED with white Joy-Cons docked, retail display", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Nintendo_switch_OLED_model_-_1.jpg", "viewed": true }
+    ],
+    "notes": "Hero is the white Joy-Con OLED; secondary shots are the Neon Red colorway of the same OLED model."
+  },
+  {
+    "slug": "xbox-series-x",
+    "files": [
+      { "file": "xbox-series-x/1.jpg", "altText": "Microsoft Xbox Series X console with wireless controller, clean white background", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Xbox_Series_X_mit_Controller_(transparent_background).png", "viewed": true },
+      { "file": "xbox-series-x/2.jpg", "altText": "Xbox Series X console with controller in front of retail box", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Xbox_Series_(X).jpg", "viewed": true },
+      { "file": "xbox-series-x/3.jpg", "altText": "Xbox Series X console front view in a store display", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Xbox_Series_X_(July_8,_2026).jpg", "viewed": true }
+    ]
+  },
+  {
+    "slug": "steam-deck-512",
+    "files": [
+      { "file": "steam-deck-512/1.jpg", "altText": "Valve Steam Deck handheld front view on white background", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Steam_Deck_(front).png", "viewed": true },
+      { "file": "steam-deck-512/2.jpg", "altText": "Valve Steam Deck official render, front view with game library on screen", "source": "valve-press", "sourcePage": "https://www.steamdeck.com/en/hardware", "viewed": true },
+      { "file": "steam-deck-512/3.jpg", "altText": "Valve Steam Deck official render, top edge showing power button and USB-C port", "source": "valve-press", "sourcePage": "https://www.steamdeck.com/en/hardware", "viewed": true }
+    ],
+    "notes": "Official Valve press renderings from cdn.fastly.steamstatic.com. Storage tier (512GB) not individually verifiable from photos."
+  },
+  {
+    "slug": "canon-eos-r50",
+    "files": [
+      { "file": "canon-eos-r50/1.jpg", "altText": "Canon EOS R50 with RF-S kit lens, front 3/4 view on white background", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Canon_EOS_R50,_Gesamtansicht_der_Kamera_30.12.2025.jpg", "viewed": true },
+      { "file": "canon-eos-r50/2.jpg", "altText": "Canon EOS R50 with kit lens, top-down view showing mode dial and hot shoe", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Canon_R50.jpg", "viewed": true },
+      { "file": "canon-eos-r50/3.jpg", "altText": "Canon EOS R50 with kit lens, side view on a display counter", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Canon_EOS_R50_Black.jpg", "viewed": true }
+    ],
+    "notes": "Rejected a box-only shot (New Canon EOS R51.jpg)."
+  },
+  {
+    "slug": "nikon-z50ii",
+    "files": [
+      { "file": "nikon-z50ii/1.jpg", "altText": "Nikon Z50 with Nikkor Z DX 16-50mm kit lens, front 3/4 studio view on white", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Nikon_Z_50_0.jpg", "viewed": true },
+      { "file": "nikon-z50ii/2.jpg", "altText": "Nikon Z50 with 16-50mm kit lens, front view on white background", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Nikon_Z_50_1.jpg", "viewed": true },
+      { "file": "nikon-z50ii/3.jpg", "altText": "Nikon Z50 rear view showing tilting LCD and controls", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Nikon_Z_50_2.jpg", "viewed": true },
+      { "file": "nikon-z50ii/4.jpg", "altText": "Nikon Z50 with 16-50mm kit lens, angled studio view on grey gradient", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Nikon_Z_50_Nikkor_Z_DX_16-50_VR.jpg", "viewed": true }
+    ],
+    "notes": "Clean studio photos of the Nikon Z50 with 16-50mm kit lens. Z50 (not Z50 II) used as the permitted equivalent; no distinct Z50 II free-licensed photos were available."
+  },
+  {
+    "slug": "gopro-hero12",
+    "files": [
+      { "file": "gopro-hero12/1.png", "altText": "GoPro HERO12 Black action camera, official front product render on white", "source": "gopro-cdn", "sourcePage": "https://gopro.com/en/us/shop/cameras/hero12-black/CHDHX-121-master.html", "viewed": true }
+    ],
+    "notes": "Only one clean official GoPro render (demandware CDN) was reachable; the rest of the gallery is JS-loaded and Wikimedia has no HERO12 files."
+  },
+  {
+    "slug": "jbl-charge-5",
+    "files": [
+      { "file": "jbl-charge-5/1.jpg", "altText": "JBL Charge 5 portable Bluetooth speaker in black, official product render on white", "source": "jbl-newsroom", "sourcePage": "https://news.jbl.com/en-CEU/195456-play-endlessly-with-the-jbl-charge-5-portable-bluetooth-speaker/", "viewed": true },
+      { "file": "jbl-charge-5/2.jpg", "altText": "JBL Charge 5 portable speaker in blue, official product render on white", "source": "jbl-newsroom", "sourcePage": "https://news.jbl.com/en-CEU/195456-play-endlessly-with-the-jbl-charge-5-portable-bluetooth-speaker/", "viewed": true },
+      { "file": "jbl-charge-5/3.jpg", "altText": "JBL Charge 5 portable speaker in grey, official product render on white", "source": "jbl-newsroom", "sourcePage": "https://news.jbl.com/en-CEU/195456-play-endlessly-with-the-jbl-charge-5-portable-bluetooth-speaker/", "viewed": true }
+    ],
+    "notes": "Official JBL HERO renders from the JBL newsroom CloudFront CDN (jbl.com store blocks curl). Color variants of the same model."
+  },
+  {
+    "slug": "bose-qc-ultra",
+    "files": [
+      { "file": "bose-qc-ultra/1.png", "altText": "Bose QuietComfort Ultra headphones in black, front view product render on white", "source": "bose-newsroom", "sourcePage": "https://www.bose.com/pressroom/bose-unveils-the-next-generation-of-the-quietcomfort-ultra-headphones", "viewed": true },
+      { "file": "bose-qc-ultra/2.png", "altText": "Bose QuietComfort Ultra headphones in black, angled 3/4 product render", "source": "bose-newsroom", "sourcePage": "https://www.bose.com/pressroom/bose-unveils-the-next-generation-of-the-quietcomfort-ultra-headphones", "viewed": true },
+      { "file": "bose-qc-ultra/3.png", "altText": "Bose QuietComfort Ultra headphones in black, side profile product render", "source": "bose-newsroom", "sourcePage": "https://www.bose.com/pressroom/bose-unveils-the-next-generation-of-the-quietcomfort-ultra-headphones", "viewed": true },
+      { "file": "bose-qc-ultra/4.png", "altText": "Bose QuietComfort Ultra headphones in black, folded top-down product render", "source": "bose-newsroom", "sourcePage": "https://www.bose.com/pressroom/bose-unveils-the-next-generation-of-the-quietcomfort-ultra-headphones", "viewed": true }
+    ],
+    "notes": "Official Bose press renders (assets.bosecreative.com). These are the current QuietComfort Ultra Headphones (2nd Gen)."
+  },
+  {
+    "slug": "google-pixel-8",
+    "files": [
+      { "file": "google-pixel-8/3.jpg", "altText": "Google Pixel 8 in Rose, front view showing display and hole-punch camera", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Google_Pixel_8_Rose_front.jpg", "viewed": true },
+      { "file": "google-pixel-8/4.jpg", "altText": "Google Pixel 8 in Rose, rear view showing the camera bar and G logo", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Google_Pixel_8_Rose_rear.jpg", "viewed": true },
+      { "file": "google-pixel-8/5.jpg", "altText": "Google Pixel 8 in Rose, angled front view on white", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Google_Pixel_8_Rose_front_bottom-left.jpg", "viewed": true },
+      { "file": "google-pixel-8/1.png", "altText": "Google Pixel 8 clean product render, back view in Obsidian (black)", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Google_Pixel_8_back_(Obsidian).svg", "viewed": true },
+      { "file": "google-pixel-8/2.png", "altText": "Google Pixel 8 clean product render, front view", "source": "wikimedia", "sourcePage": "https://commons.wikimedia.org/wiki/File:Google_Pixel_8_front.svg", "viewed": true }
+    ],
+    "notes": "Reordered so the real Rose-color photos lead; the Obsidian/porcelain SVG renders are supplementary clean product illustrations."
+  }
+]

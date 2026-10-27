@@ -12,9 +12,10 @@ public record SeedReport(int CategoriesAdded, int ProductsAdded, int AccountsCre
 
 /// <summary>
 /// Idempotent DEVELOPMENT seeder: inserts missing roles, categories, products,
-/// demo accounts and sample orders from an embedded dataset. Existing rows are
-/// never modified, so running it repeatedly (or against a database with real
-/// data) cannot overwrite anything.
+/// demo accounts and sample orders from an embedded dataset. Existing product
+/// rows are never overwritten — only their image gallery is re-synced from the
+/// dataset so image updates propagate safely on rerun. Running it repeatedly
+/// cannot duplicate or clobber catalog data.
 /// </summary>
 public static class DbSeeder
 {
@@ -108,15 +109,26 @@ public static class DbSeeder
         var existingSkus = (await db.Products.Select(p => p.Sku).ToListAsync(ct))
             .ToHashSet(StringComparer.OrdinalIgnoreCase);
 
+        // Load existing products with galleries once — used to sync images on rerun.
+        var existingBySku = (await db.Products.Include(p => p.Images).ToListAsync(ct))
+            .ToDictionary(p => p.Sku, StringComparer.OrdinalIgnoreCase);
+
         var existingSlugs = (await db.Products.Select(p => p.Slug).ToListAsync(ct))
             .ToHashSet(StringComparer.OrdinalIgnoreCase);
 
         var added = 0;
+        var refreshed = 0;
 
         foreach (var seed in products)
         {
-            if (existingSkus.Contains(seed.Sku))
+            if (existingBySku.TryGetValue(seed.Sku, out var existing))
+            {
+                // Idempotent rerun: refresh the gallery of existing products so
+                // image updates in seed-data.json propagate to already-seeded rows.
+                if (SyncImages(existing, seed))
+                    refreshed++;
                 continue;
+            }
 
             if (!categoryBySlug.TryGetValue(seed.CategorySlug, out var category))
             {
@@ -149,13 +161,25 @@ public static class DbSeeder
                 UpdatedAt = DateTime.UtcNow.AddDays(-Math.Clamp(seed.CreatedAtDaysAgo, 1, 365))
             };
 
-            for (var i = 1; i < seed.Images.Count; i++)
+            for (var i = 0; i < seed.Images.Count; i++)
             {
-                product.Images.Add(new ProductImage { Url = seed.Images[i], SortOrder = i });
+                product.Images.Add(new ProductImage
+                {
+                    Url = seed.Images[i],
+                    AltText = BuildAltText(product.Name, seed, i),
+                    SortOrder = i,
+                    IsPrimary = i == 0
+                });
             }
             if (product.Images.Count == 0 && !string.IsNullOrEmpty(product.ImageUrl))
             {
-                product.Images.Add(new ProductImage { Url = product.ImageUrl, SortOrder = 0 });
+                product.Images.Add(new ProductImage
+                {
+                    Url = product.ImageUrl,
+                    AltText = BuildAltText(product.Name, seed, 0),
+                    SortOrder = 0,
+                    IsPrimary = true
+                });
             }
 
             foreach (var variant in seed.Variants)
@@ -176,10 +200,56 @@ public static class DbSeeder
             added++;
         }
 
-        if (added > 0)
+        if (added > 0 || refreshed > 0)
             await db.SaveChangesAsync(ct);
 
         return added;
+    }
+
+    /// <summary>
+    /// Rebuilds an existing product's gallery from the seed definition.
+    /// Returns true when something changed so the caller knows to save.
+    /// </summary>
+    private static bool SyncImages(Product product, SeedProduct seed)
+    {
+        var desired = seed.Images
+            .Where(u => !string.IsNullOrWhiteSpace(u))
+            .Select(u => u.Trim())
+            .ToList();
+        if (desired.Count == 0 && !string.IsNullOrWhiteSpace(product.ImageUrl))
+            desired.Add(product.ImageUrl.Trim());
+
+        var current = product.Images.OrderBy(i => i.SortOrder).ToList();
+        var unchanged = current.Count == desired.Count
+                        && !current.Where((img, idx) => img.Url != desired[idx] || img.IsPrimary != (idx == 0)).Any();
+
+        // Primary image mirrors the first gallery image on the product row.
+        var primaryChanged = desired.Count > 0 && product.ImageUrl != desired[0];
+        if (unchanged && !primaryChanged)
+            return false;
+
+        product.Images.Clear();
+        for (var i = 0; i < desired.Count; i++)
+        {
+            product.Images.Add(new ProductImage
+            {
+                Url = desired[i],
+                AltText = BuildAltText(product.Name, seed, i),
+                SortOrder = i,
+                IsPrimary = i == 0
+            });
+        }
+        if (desired.Count > 0)
+            product.ImageUrl = desired[0];
+        product.UpdatedAt = DateTime.UtcNow;
+        return true;
+    }
+
+    private static string BuildAltText(string productName, SeedProduct seed, int index)
+    {
+        if (index < seed.ImageAlts.Count && !string.IsNullOrWhiteSpace(seed.ImageAlts[index]))
+            return seed.ImageAlts[index].Trim();
+        return $"{productName} — product view {index + 1}";
     }
 
     private static async Task<int> SeedAccountsAsync(
@@ -423,6 +493,10 @@ internal sealed class SeedProduct
     public bool IsActive { get; set; } = true;
     public int CreatedAtDaysAgo { get; set; } = 30;
     public List<string> Images { get; set; } = new();
+
+    /// <summary>Optional per-image alt text (parallel to <see cref="Images"/>).</summary>
+    public List<string> ImageAlts { get; set; } = new();
+
     public List<SeedVariant> Variants { get; set; } = new();
 }
 

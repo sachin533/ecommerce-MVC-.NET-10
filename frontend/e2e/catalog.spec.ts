@@ -2,36 +2,54 @@ import { expect, test } from '@playwright/test'
 
 const parsePrice = (text: string) => Number(text.replace(/\D/g, ''))
 
+/** Live catalog size from the API — keeps assertions valid as the catalog grows. */
+async function apiProductTotal(page: import('@playwright/test').Page): Promise<number> {
+  const res = await page.request.get('/api/products?page=1&pageSize=1')
+  const body = await res.json()
+  return body.totalCount as number
+}
+
 /** Catalog journeys: home → shop, search, filtering, sorting, pagination, detail. */
 test.describe('catalog', () => {
-  test('home hero leads to the shop with the full seeded catalog', async ({ page }) => {
+  test('home hero leads to the featured product detail page', async ({ page }) => {
+    const total = await apiProductTotal(page)
+    expect(total).toBeGreaterThanOrEqual(120)
+
     await page.goto('/')
+    await expect(page.getByTestId('hero-carousel')).toBeVisible()
     await page.getByTestId('hero-shop-now').click()
 
-    await expect(page).toHaveURL('/shop')
+    // Slide 1's Shop Now deep-links into the MacBook Air product page.
+    await expect(page).toHaveURL('/product/apple-macbook-air-m3')
+    await expect(page.getByTestId('product-title')).toContainText('MacBook Air')
+
+    // The full seeded catalog is reachable from the shop.
+    await page.goto('/shop')
     await expect(page.getByTestId('shop-title')).toBeVisible()
-    await expect(page.getByTestId('result-count')).toContainText('of 186')
+    await expect(page.getByTestId('result-count')).toContainText(`of ${total}`)
   })
 
   test('searching narrows the product grid', async ({ page }) => {
+    const total = await apiProductTotal(page)
     await page.goto('/shop')
     await page.getByTestId('filter-search').fill('iphone')
     await page.getByTestId('filter-search').press('Enter')
 
-    await expect(page.getByTestId('result-count')).not.toContainText('of 186')
+    await expect(page.getByTestId('result-count')).not.toContainText(`of ${total}`)
     await expect(page.getByTestId('product-card').first()).toBeVisible()
 
     const countText = await page.getByTestId('result-count').innerText()
-    const total = Number(countText.match(/of (\d+)/)?.[1] ?? '0')
-    expect(total).toBeGreaterThan(0)
-    expect(total).toBeLessThan(186)
+    const filtered = Number(countText.match(/of (\d+)/)?.[1] ?? '0')
+    expect(filtered).toBeGreaterThan(0)
+    expect(filtered).toBeLessThan(total)
   })
 
   test('category filter and price sorting work together', async ({ page }) => {
+    const total = await apiProductTotal(page)
     await page.goto('/shop')
     await page.getByTestId('category-laptops').click()
     await expect(page).toHaveURL(/categorySlug=laptops/)
-    await expect(page.getByTestId('result-count')).not.toContainText('of 186')
+    await expect(page.getByTestId('result-count')).not.toContainText(`of ${total}`)
 
     const responses = page.waitForResponse((res) => res.url().includes('/api/products?'))
     await page.getByTestId('sort-select').selectOption('price-asc')
@@ -48,11 +66,12 @@ test.describe('catalog', () => {
   })
 
   test('pagination moves to the second page of results', async ({ page }) => {
+    const total = await apiProductTotal(page)
     await page.goto('/shop')
     await page.getByTestId('pagination-next').click()
 
     await expect(page).toHaveURL(/page=2/)
-    await expect(page.getByTestId('result-count')).toContainText('13–24 of 186')
+    await expect(page.getByTestId('result-count')).toContainText(`13–24 of ${total}`)
   })
 
   test('opening a product shows its detail page', async ({ page }) => {

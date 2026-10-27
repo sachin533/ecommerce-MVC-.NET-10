@@ -1,138 +1,196 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { productService, categoryService } from '@/services/api'
+import PromoTicker from '@/components/PromoTicker.vue'
+import HeroCarousel from '@/components/HeroCarousel.vue'
+import CategoryStrip from '@/components/CategoryStrip.vue'
+import PromoBanners from '@/components/PromoBanners.vue'
+import ProductSection from '@/components/ProductSection.vue'
 import ProductCard from '@/components/ProductCard.vue'
-import ProductImage from '@/components/ProductImage.vue'
+import { useRecentlyViewed } from '@/composables/useRecentlyViewed'
 import type { Category, ProductSummary } from '@/types'
 
+const { recent } = useRecentlyViewed()
+
 const featured = ref<ProductSummary[]>([])
+const bestSellers = ref<ProductSummary[]>([])
+const deals = ref<ProductSummary[]>([])
 const newest = ref<ProductSummary[]>([])
+const recommended = ref<ProductSummary[]>([])
 const categories = ref<Category[]>([])
 const loading = ref(true)
+const recentlyViewed = ref<ProductSummary[]>([])
+
+/** Deals of the Day countdown resets at local midnight. */
+const countdown = ref('--:--:--')
+let countdownTimer: number | undefined
+
+function tickCountdown() {
+  const now = new Date()
+  const end = new Date(now)
+  end.setHours(24, 0, 0, 0)
+  const diff = Math.max(0, end.getTime() - now.getTime())
+  const hours = Math.floor(diff / 3_600_000)
+  const minutes = Math.floor((diff % 3_600_000) / 60_000)
+  const seconds = Math.floor((diff % 60_000) / 1000)
+  countdown.value = [hours, minutes, seconds].map((n) => String(n).padStart(2, '0')).join(':')
+}
+
+const hasRecentlyViewed = computed(() => recentlyViewed.value.length > 0)
 
 onMounted(async () => {
+  tickCountdown()
+  countdownTimer = window.setInterval(tickCountdown, 1000)
+
   try {
-    const [featuredRes, newestRes, categoriesRes] = await Promise.all([
+    const [featuredRes, dealsRes, bestRes, newestRes, recommendedRes, categoriesRes] = await Promise.all([
       productService.featured(),
+      productService.list({ sort: 'discount', pageSize: 8 }),
+      productService.list({ sort: 'popularity', pageSize: 8 }),
       productService.list({ sort: 'newest', pageSize: 8 }),
+      productService.list({ sort: 'rating', pageSize: 8 }),
       categoryService.list(),
     ])
     featured.value = featuredRes
+    deals.value = dealsRes.items
+    bestSellers.value = bestRes.items
     newest.value = newestRes.items
-    categories.value = categoriesRes.filter((c) => c.isActive).slice(0, 8)
+    recommended.value = recommendedRes.items.filter((p) => p.isAvailable)
+    categories.value = categoriesRes.filter((c) => c.isActive)
   } finally {
     loading.value = false
+    recentlyViewed.value = recent(8)
   }
 })
+
+// Clean up the countdown interval on unmount.
+onBeforeUnmount(() => window.clearInterval(countdownTimer))
 </script>
 
 <template>
   <div>
-    <!-- Hero -->
-    <section class="relative overflow-hidden bg-gradient-to-br from-brand-700 via-brand-600 to-sky-500 text-white">
-      <div class="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:py-24">
-        <div>
-          <span class="badge bg-white/15 text-white">Festive sale · up to 40% off</span>
-          <h1 class="mt-4 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
-            Everything you love,<br />delivered fast.
-          </h1>
-          <p class="mt-4 max-w-lg text-lg text-white/85">
-            Laptops, fashion, home essentials and more — 170+ products, honest prices in ₹, and a checkout that takes under a minute.
-          </p>
-          <div class="mt-8 flex flex-wrap gap-3">
-            <router-link :to="{ name: 'shop' }" class="btn bg-white px-6 py-3 text-brand-700 hover:bg-brand-50" data-testid="hero-shop-now">
-              Shop now
-            </router-link>
-            <router-link :to="{ name: 'shop', query: { sort: 'price-asc' } }" class="btn border border-white/40 px-6 py-3 text-white hover:bg-white/10">
-              Deals under ₹999
-            </router-link>
-          </div>
-          <dl class="mt-10 grid max-w-md grid-cols-3 gap-6 border-t border-white/20 pt-6 text-sm">
-            <div><dt class="text-white/70">Free shipping</dt><dd class="font-bold">over ₹999</dd></div>
-            <div><dt class="text-white/70">Easy returns</dt><dd class="font-bold">7-day window</dd></div>
-            <div><dt class="text-white/70">Secure mock pay</dt><dd class="font-bold">no card stored</dd></div>
-          </dl>
-        </div>
-        <div class="relative hidden lg:block">
-          <div class="grid grid-cols-2 gap-4">
-            <ProductImage src="https://cdn.dummyjson.com/product-images/mobiles/apple-iphone-13-pro/1.webp" alt="iPhone" img-class="h-64 w-full rounded-2xl object-cover shadow-xl" />
-            <ProductImage src="https://cdn.dummyjson.com/product-images/laptops/asus-f512ja-as74/1.webp" alt="Laptop" img-class="mt-8 h-64 w-full rounded-2xl object-cover shadow-xl" />
-            <ProductImage src="https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-max/1.webp" alt="Shoes" img-class="-mt-8 h-64 w-full rounded-2xl object-cover shadow-xl" />
-            <ProductImage src="https://cdn.dummyjson.com/product-images/womens-dresses/beautiful-quran-and-rosary/1.webp" alt="Fashion" img-class="h-64 w-full rounded-2xl object-cover shadow-xl" />
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Animated promotional ticker (black bar, white text) -->
+    <PromoTicker />
 
-    <div class="mx-auto max-w-7xl px-4 sm:px-6">
-      <!-- Categories -->
-      <section class="py-12">
-        <div class="mb-6 flex items-end justify-between">
-          <h2 class="text-2xl font-bold text-slate-900">Shop by category</h2>
-          <router-link :to="{ name: 'shop' }" class="text-sm font-semibold text-brand-600 hover:text-brand-700">View all →</router-link>
+    <!-- Hero carousel with real product photography -->
+    <HeroCarousel />
+
+    <div class="mx-auto max-w-7xl space-y-10 px-4 py-10 sm:px-6">
+      <!-- Category strip -->
+      <section aria-labelledby="categories-heading">
+        <div class="mb-5 text-center">
+          <h2 id="categories-heading" class="text-xl font-bold text-slate-900 sm:text-2xl" data-testid="categories-heading">
+            Shop by Category
+          </h2>
+          <p class="mt-1 text-sm text-slate-500">Everything from flagship phones to home essentials</p>
         </div>
-        <div v-if="loading" class="grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-8">
-          <div v-for="i in 8" :key="i" class="h-24 animate-pulse rounded-xl bg-slate-200" />
+        <CategoryStrip :categories="categories" />
+      </section>
+
+      <!-- Trust badges -->
+      <section class="grid grid-cols-2 gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-center sm:grid-cols-4" aria-label="Why shop with us">
+        <div class="flex flex-col items-center gap-1 p-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-6 w-6 text-brand-600"><path d="M3 7h11v8H3zM14 10h4l3 3v2h-7zM6.5 18a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM17.5 18a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <p class="text-xs font-semibold text-slate-800">Free delivery</p>
+          <p class="text-[11px] text-slate-500">On orders over ₹999</p>
         </div>
-        <div v-else class="grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-8">
-          <router-link
-            v-for="category in categories"
-            :key="category.id"
-            :to="{ name: 'category', params: { slug: category.slug } }"
-            class="card flex h-24 flex-col items-center justify-center p-3 text-center transition hover:-translate-y-0.5 hover:border-brand-300 hover:shadow-md"
-            data-testid="category-tile"
-          >
-            <span class="text-sm font-semibold text-slate-800">{{ category.name }}</span>
-            <span class="mt-1 text-xs text-slate-400">{{ category.productCount }} items</span>
-          </router-link>
+        <div class="flex flex-col items-center gap-1 p-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-6 w-6 text-brand-600"><path d="M3 12a9 9 0 1 0 3-6.7L3 8M3 3v5h5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <p class="text-xs font-semibold text-slate-800">7-day returns</p>
+          <p class="text-[11px] text-slate-500">No-questions policy</p>
+        </div>
+        <div class="flex flex-col items-center gap-1 p-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-6 w-6 text-brand-600"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4zM9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <p class="text-xs font-semibold text-slate-800">Secure checkout</p>
+          <p class="text-[11px] text-slate-500">Encrypted payments</p>
+        </div>
+        <div class="flex flex-col items-center gap-1 p-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-6 w-6 text-brand-600"><path d="M12 8v4l3 2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <p class="text-xs font-semibold text-slate-800">Support 24/7</p>
+          <p class="text-[11px] text-slate-500">Real humans, real help</p>
+        </div>
+      </section>
+
+      <!-- Promo banners -->
+      <PromoBanners />
+
+      <!-- Deals of the Day with countdown -->
+      <section data-testid="deals-of-the-day">
+        <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <h2 class="text-xl font-bold text-slate-900 sm:text-2xl" data-testid="section-title">Deals of the Day</h2>
+            <p class="mt-0.5 text-sm text-slate-500">Discounts refreshed every 24 hours</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="flex items-center gap-2 rounded-lg bg-slate-900 px-3 py-1.5 text-sm font-bold text-white tabular-nums" aria-label="Time left in this sale" data-testid="deals-countdown">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-amber-300"><path d="M12 8v4l3 2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              {{ countdown }}
+            </span>
+            <router-link :to="{ name: 'deals' }" class="text-sm font-semibold text-brand-600 hover:text-brand-700 hover:underline" data-testid="section-view-all">
+              View all →
+            </router-link>
+          </div>
+        </div>
+
+        <div v-if="loading" class="grid grid-cols-2 gap-4 md:grid-cols-4">
+          <div v-for="i in 4" :key="i" class="card animate-pulse p-4">
+            <div class="aspect-square animate-pulse rounded-lg bg-slate-200" />
+            <div class="mt-3 h-4 w-3/4 rounded bg-slate-200" />
+          </div>
+        </div>
+        <div v-else class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+          <ProductCard v-for="product in deals" :key="product.id" :product="product" />
         </div>
       </section>
 
       <!-- Featured -->
-      <section class="py-6">
-        <div class="mb-6 flex items-end justify-between">
-          <div>
-            <h2 class="text-2xl font-bold text-slate-900">Featured picks</h2>
-            <p class="text-sm text-slate-500">Hand-picked bestsellers our customers love.</p>
-          </div>
-        </div>
-        <div v-if="loading" class="grid grid-cols-2 gap-4 md:grid-cols-4">
-          <div v-for="i in 4" :key="i" class="h-96 animate-pulse rounded-xl bg-slate-200" />
-        </div>
-        <div v-else class="grid grid-cols-2 gap-4 md:grid-cols-4">
-          <ProductCard v-for="product in featured" :key="product.id" :product="product" />
-        </div>
-      </section>
+      <ProductSection
+        title="Featured Products"
+        subtitle="Hand-picked by the QuickShop team"
+        section-id="featured-products"
+        :products="featured"
+        :loading="loading"
+        :view-all="{ name: 'shop', query: { featured: 'true' } }"
+      />
 
-      <!-- Value props -->
-      <section class="grid gap-4 py-10 sm:grid-cols-3">
-        <div class="card flex items-start gap-3 p-5">
-          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-600">🚚</span>
-          <div><h3 class="font-semibold text-slate-900">Fast delivery</h3><p class="text-sm text-slate-500">Standard ₹49 (free over ₹999) or express ₹199.</p></div>
-        </div>
-        <div class="card flex items-start gap-3 p-5">
-          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-600">🔒</span>
-          <div><h3 class="font-semibold text-slate-900">Safe checkout</h3><p class="text-sm text-slate-500">Card numbers are never sent to or stored on our servers.</p></div>
-        </div>
-        <div class="card flex items-start gap-3 p-5">
-          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-600">↩️</span>
-          <div><h3 class="font-semibold text-slate-900">Easy returns</h3><p class="text-sm text-slate-500">7-day return window on unopened items.</p></div>
-        </div>
-      </section>
+      <!-- Best sellers -->
+      <ProductSection
+        title="Best Sellers"
+        subtitle="What everyone is buying right now"
+        section-id="best-sellers"
+        :products="bestSellers"
+        :loading="loading"
+        :view-all="{ name: 'shop', query: { sort: 'popularity' } }"
+      />
 
       <!-- New arrivals -->
-      <section class="py-6">
-        <div class="mb-6 flex items-end justify-between">
-          <h2 class="text-2xl font-bold text-slate-900">New arrivals</h2>
-          <router-link :to="{ name: 'shop', query: { sort: 'newest' } }" class="text-sm font-semibold text-brand-600 hover:text-brand-700">See more →</router-link>
-        </div>
-        <div v-if="loading" class="grid grid-cols-2 gap-4 md:grid-cols-4">
-          <div v-for="i in 4" :key="i" class="h-96 animate-pulse rounded-xl bg-slate-200" />
-        </div>
-        <div v-else class="grid grid-cols-2 gap-4 md:grid-cols-4">
-          <ProductCard v-for="product in newest" :key="product.id" :product="product" />
-        </div>
-      </section>
+      <ProductSection
+        title="New Arrivals"
+        subtitle="Fresh stock, just landed"
+        section-id="new-arrivals"
+        :products="newest"
+        :loading="loading"
+        :view-all="{ name: 'new-arrivals' }"
+      />
+
+      <!-- Recommended -->
+      <ProductSection
+        title="Recommended for You"
+        subtitle="Top-rated picks across the store"
+        section-id="recommended-products"
+        :products="recommended"
+        :loading="loading"
+        :view-all="{ name: 'shop', query: { sort: 'rating' } }"
+      />
+
+      <!-- Recently viewed -->
+      <ProductSection
+        v-if="hasRecentlyViewed"
+        title="Recently Viewed"
+        subtitle="Pick up where you left off"
+        section-id="recently-viewed"
+        :products="recentlyViewed"
+      />
     </div>
   </div>
 </template>

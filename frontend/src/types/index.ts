@@ -43,7 +43,7 @@ export interface ProductQuery {
   maxPrice?: number
   inStockOnly?: boolean
   featured?: boolean
-  sort?: 'newest' | 'price-asc' | 'price-desc' | 'rating' | 'popularity'
+  sort?: 'newest' | 'price-asc' | 'price-desc' | 'rating' | 'popularity' | 'discount'
   page?: number
   pageSize?: number
   includeInactive?: boolean
@@ -74,7 +74,11 @@ export interface ProductSummary {
 export interface ProductImage {
   id: number
   url: string
+  /** Accessible description of the image ("MacBook Air M3, front view"). */
+  altText: string
   sortOrder: number
+  /** True for the primary gallery image (mirrors ProductSummary.imageUrl). */
+  isPrimary: boolean
 }
 
 export interface ProductVariant {

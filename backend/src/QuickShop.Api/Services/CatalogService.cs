@@ -322,21 +322,39 @@ public class CatalogService
         "price-desc" => q.OrderByDescending(p => p.Price * (100m - p.DiscountPercent) / 100m).ThenBy(p => p.Id),
         "rating" => q.OrderByDescending(p => p.Rating).ThenByDescending(p => p.RatingCount),
         "popularity" => q.OrderByDescending(p => p.RatingCount).ThenByDescending(p => p.Rating),
+        "discount" => q.Where(p => p.DiscountPercent > 0)
+            .OrderByDescending(p => p.DiscountPercent)
+            .ThenByDescending(p => p.Rating),
         _ => q.OrderByDescending(p => p.CreatedAt).ThenByDescending(p => p.Id)
     };
 
     private static void AddImages(Product product, string primaryUrl, List<string>? extra)
     {
         var sort = 0;
-        product.Images.Add(new ProductImage { ProductId = product.Id, Url = primaryUrl.Trim(), SortOrder = sort++ });
+        var primary = primaryUrl.Trim();
+        product.Images.Add(new ProductImage
+        {
+            ProductId = product.Id,
+            Url = primary,
+            AltText = $"{product.Name} — view {sort + 1}",
+            SortOrder = sort++,
+            IsPrimary = true
+        });
 
         foreach (var url in (extra ?? new List<string>())
                      .Where(u => !string.IsNullOrWhiteSpace(u))
                      .Select(u => u.Trim())
-                     .Where(u => !string.Equals(u, primaryUrl.Trim(), StringComparison.OrdinalIgnoreCase))
+                     .Where(u => !string.Equals(u, primary, StringComparison.OrdinalIgnoreCase))
                      .Take(8))
         {
-            product.Images.Add(new ProductImage { ProductId = product.Id, Url = url, SortOrder = sort++ });
+            product.Images.Add(new ProductImage
+            {
+                ProductId = product.Id,
+                Url = url,
+                AltText = $"{product.Name} — view {sort + 1}",
+                SortOrder = sort++,
+                IsPrimary = false
+            });
         }
     }
 
@@ -421,7 +439,7 @@ public class CatalogService
         Description = p.Description,
         Images = p.Images
             .OrderBy(i => i.SortOrder)
-            .Select(i => new ProductImageDto(i.Id, i.Url, i.SortOrder))
+            .Select(i => new ProductImageDto(i.Id, i.Url, i.AltText, i.SortOrder, i.IsPrimary))
             .ToList(),
         Variants = p.Variants
             .Where(v => v.IsActive)
