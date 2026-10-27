@@ -39,7 +39,7 @@ dotnet ef database update \
   --project src/QuickShop.Api --startup-project src/QuickShop.Api
 ```
 
-Seeding is idempotent — safe to re-run. The dev database (`QuickShopDb`) is seeded with **186 products across 14 categories**, 1 admin + 3 customer accounts, and 17 sample orders.
+Seeding is idempotent — safe to re-run. The dev database (`QuickShopDb`) is seeded with **235 products across 17 categories** (incl. flagship Apple/Samsung/Sony/Dell/Lenovo/HP/OnePlus/Xiaomi lines), 1 admin + 3 customer accounts, and 17 sample orders. On rerun the seeder inserts only *missing* rows and re-syncs each product's image gallery from the dataset, so image updates propagate without duplicating or clobbering catalog data.
 
 **Dev accounts**
 
@@ -97,6 +97,14 @@ The Playwright config reuses an already-running API (port 5080) and dev server (
 **Checkout and payments.** Multi-step on the client (address → shipping → payment → review). The order transaction runs inside EF's execution strategy so a transient failure retries the whole unit. The mock payment provider declines any card whose final digit is odd; on decline the API returns **402** with `orderNumber` and `providerReason`, the order is marked `Cancelled`, stock is restocked, and the customer's cart is left untouched. **Card numbers and CVVs are never stored** — only the last four digits reach the server, and the CVV never leaves the browser.
 
 **Passwords (dev).** In Development there is no SMTP, so the forgot-password response includes a `devResetToken`; the token is also written to `logs/dev-emails/` and the console. Tokens are single-use and expiring. The UI surfaces a development-only "reset link" so the flow can be completed in the browser.
+
+**Product imagery.** Product photography is stored as **local static assets** under `frontend/public/images/products/<slug>/` and referenced by root-relative URLs in the seed dataset — the storefront never hotlinks manufacturer or third-party CDNs. Sourcing follows a strict priority:
+
+1. **Official manufacturer CDN renders** (Apple store CDN, `images.samsung.com`, `image01.oneplus.net`, LG/Sony/GoPro asset CDNs, …) discovered from official product pages.
+2. **Free-licensed photography** from Wikimedia Commons (CC BY-SA / CC0), preferring known studio photographers for consistent white-background product shots.
+3. **Reputable press/review CDNs** only when the file is directly downloadable and passes visual verification.
+
+Every downloaded image is **visually verified by hand** against the exact product model before use — logo-only art, spec charts, screenshots, box-only shots, hands/people, demo-kiosk units and heavy watermarks are rejected. The long-tail catalog (products without reliable photography) uses generated per-category SVG artwork (`frontend/scripts/generate-placeholders.mjs`, three tint variants per category) so no broken or mismatched images ever render. Product galleries carry real metadata — URL, alt text, sort order and a primary flag — on the `ProductImages` table, exposed through `GET /api/products/{slug}` and rendered with `object-fit: contain` (never stretched); `cover` is reserved for lifestyle banners. Ratings shown in the UI are labelled as sample data.
 
 ## Project layout
 
